@@ -1,0 +1,21 @@
+﻿@{
+    int tongSoLuong = ViewBag.TongSoLuong;
+    double tongTien = ViewBag.TongTien;
+}
+
+<div class="gio-hang-partial">
+    <span>Số lượng: @tongSoLuong</span>
+    <span>Tổng tiền: @String.Format("{0:0,0}", tongTien) VNĐ</span>
+</div>
+
+<style type="text/css">
+    .gio-hang-partial {
+        font-size: medium;
+        color: blue;
+    }
+
+        .gio-hang-partial span {
+            display: inline-block;
+            margin-right: 10px;
+        }
+</style>

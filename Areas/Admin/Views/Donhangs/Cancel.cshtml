@@ -1,0 +1,48 @@
+﻿@model VinaShoseShop.Models.Donhang
+@{
+    ViewBag.Title = "Cancel";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Hủy đơn hàng</h2>
+
+
+<div>
+    <h4>Donhang</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tinhtrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tinhtrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ngaydat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaydat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manguoidung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manguoidung)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-warning"/> |
+            @Html.ActionLink("Về trang chủ", "Index")
+        </div>
+    }
+</div>

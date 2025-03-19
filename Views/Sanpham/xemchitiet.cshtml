@@ -1,0 +1,52 @@
+﻿@using VinaShoseShop.Models
+@model Sanpham
+
+@{
+    ViewBag.Title = "xemchitiet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+
+<div class="product-details">
+    <h2 style="font-family: Arial, sans-serif; color: #333;">CHI TIẾT SẢN PHẨM</h2>
+    <img src="@Url.Content("~/HinhanhSP/" + @Model.Anhbia)" style="width: 100%; max-width: 900px; height: auto; margin-bottom: 20px;" />
+    <div style="text-align: left; margin-left: 20px;">
+        <h3 style="font-family: 'Times New Roman', serif; font-weight: bold;">@Model.Tensp</h3>
+        <p style="font-size: 16px; color: #666;">Mã sản phẩm: <span style="font-weight: bold;">@Model.Masp</span></p>
+        <p style="font-size: 16px; color: #666;">Màu sắc: <span style="font-weight: bold;">@Model.Mausac</span></p>
+        <h2 style="font-family: Arial, sans-serif; color: #333; margin-top: 20px;">Mô tả</h2>
+        <p style="font-size: 16px;">@Model.Mota</p>
+        @if (Model.Sale == true)
+        {
+            <h3 style="font-size: 1.5rem; margin: 0;">
+                <span style="margin-right: 0.5rem;">Giá:</span>
+                <span style="color: red; font-weight: bold;">@Model.GiaSale đ</span>
+                <del style="color: grey; text-decoration: line-through; margin-left: 0.5rem;">@Model.Giatien đ</del>
+            </h3>
+        }
+        else
+        {
+            <h3 style="font-size: 1.5rem; margin: 0;">
+                <span style="margin-right: 0.5rem;">Giá:</span>
+                <span style="color: black;">@Model.Giatien đ</span>
+            </h3>
+        }
+    </div>
+    @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = Model.Masp, @strURL = Request.Url.ToString() }))
+    {
+        <input type="submit" value="Thêm vào giỏ hàng" id="bgnGioHang" style="font-size: 18px; padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; border-radius: 4px;" />
+    }
+</div>
+
+<style>
+    .product-details {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 900px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
