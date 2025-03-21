@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebsiteGiayModelStoreContainer" CdmEntityContainer="DefaultConnection">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chitietdonhangs">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Chitietdonhang">
+        <MappingFragment StoreEntitySet="Chitietdonhangs">
+          <ScalarProperty Name="Madon" ColumnName="Madon" />
+          <ScalarProperty Name="Masp" ColumnName="Masp" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="GiaGocSp" ColumnName="GiaGocSp" />
+          <ScalarProperty Name="size" ColumnName="size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Donhangs">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Donhang">
+        <MappingFragment StoreEntitySet="Donhangs">
+          <ScalarProperty Name="Madon" ColumnName="Madon" />
+          <ScalarProperty Name="Ngaydat" ColumnName="Ngaydat" />
+          <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
+          <ScalarProperty Name="Manguoidung" ColumnName="Manguoidung" />
+          <ScalarProperty Name="TenSanPham" ColumnName="TenSanPham" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="TenNguoiDat" ColumnName="TenNguoiDat" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hangsanxuats">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Hangsanxuat">
+        <MappingFragment StoreEntitySet="Hangsanxuats">
+          <ScalarProperty Name="Mahang" ColumnName="Mahang" />
+          <ScalarProperty Name="Tenhang" ColumnName="Tenhang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kieudangs">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Kieudang">
+        <MappingFragment StoreEntitySet="Kieudangs">
+          <ScalarProperty Name="Makieudang" ColumnName="Makieudang" />
+          <ScalarProperty Name="Tenkieudang" ColumnName="Tenkieudang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nguoidungs">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Nguoidung">
+        <MappingFragment StoreEntitySet="Nguoidungs">
+          <ScalarProperty Name="Manguoidung" ColumnName="Manguoidung" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+          <ScalarProperty Name="Matkhau" ColumnName="Matkhau" />
+          <ScalarProperty Name="IDQuyen" ColumnName="IDQuyen" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phanquyens">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Phanquyen">
+        <MappingFragment StoreEntitySet="Phanquyens">
+          <ScalarProperty Name="IDQuyen" ColumnName="IDQuyen" />
+          <ScalarProperty Name="TenQuyen" ColumnName="TenQuyen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sanphams">
+      <EntityTypeMapping TypeName="WebsiteGiayModel.Sanpham">
+        <MappingFragment StoreEntitySet="Sanphams">
+          <ScalarProperty Name="Masp" ColumnName="Masp" />
+          <ScalarProperty Name="Tensp" ColumnName="Tensp" />
+          <ScalarProperty Name="Giatien" ColumnName="Giatien" />
+          <ScalarProperty Name="GiaGoc" ColumnName="GiaGoc" />
+          <ScalarProperty Name="GiaSale" ColumnName="GiaSale" />
+          <ScalarProperty Name="Sale" ColumnName="Sale" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Mota" ColumnName="Mota" />
+          <ScalarProperty Name="Mausac" ColumnName="Mausac" />
+          <ScalarProperty Name="Kichco" ColumnName="Kichco" />
+          <ScalarProperty Name="Sanphammoi" ColumnName="Sanphammoi" />
+          <ScalarProperty Name="Anhbia" ColumnName="Anhbia" />
+          <ScalarProperty Name="Mahang" ColumnName="Mahang" />
+          <ScalarProperty Name="Makieudang" ColumnName="Makieudang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
