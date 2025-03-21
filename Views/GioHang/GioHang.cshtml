@@ -1,0 +1,75 @@
+﻿@using VinaShoseShop.Models;
+@model List<GioHang>
+
+@{
+    ViewBag.Title = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2> GIỎ HÀNG <i class="fa fa-shopping-cart"></i></h2>
+<br />
+
+<table class="table-hover table-bordered divGioHang">
+    <tr>
+        <th>Mã SP</th>
+        <th>Tên SP</th>
+        <th>Ảnh bìa</th>
+        <th>Đơn giá</th>
+        <th>Size</th>
+        <th>Số lượng</th>
+        <th>Thành tiền</th>
+    </tr>
+    @{
+        decimal tongTien = 0;
+    }
+    @foreach (var item in Model)
+    {
+        <tr class="font-italic">
+            <td>@item.iMasp</td>
+            <td>@item.sTensp</td>
+            <td><img src="@Url.Content("~/HinhanhSP/" + item.sAnhBia)" width="50" height="50" /></td>
+            <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
+            <td>@item.Size</td> <!-- Hiển thị Size của sản phẩm -->
+            <td>@item.iSoLuong</td>
+            <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+        </tr>
+        tongTien += Convert.ToDecimal(item.ThanhTien);
+    }
+
+    <tr>
+        <td colspan="7" style="text-align:right">
+            <strong>Tổng tiền:</strong> @String.Format("{0:0,0}", tongTien) VNĐ
+        </td>
+    </tr>
+    <tr>
+        <td colspan="7" style="text-align:right">
+            @Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang")
+        </td>
+    </tr>
+    <tr>
+        <td colspan="7" style="text-align:right; color:blue">
+            @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @class = "" }))
+            {
+                <input type="submit" value="Đặt hàng COD" class="btn-danger" />
+            }
+        <form action="/GioHang/DatHangOnline" method="post">
+            <input type="submit" value="Đặt hàng Vnpay" class="btn-primary" />
+        </form>
+           
+        </td>   
+    </tr>
+</table>
+
+<style type="text/css">
+    .divGioHang {
+        border: 2px solid #EEEEEE;
+        margin-left: 10%;
+        font-size: large;
+    }
+
+        .divGioHang td, .divGioHang th {
+            padding: 10px;
+            border: 2px solid #EEEEEE;
+            text-align: center;
+        }
+</style>

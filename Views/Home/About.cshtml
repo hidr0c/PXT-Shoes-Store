@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "About";
+    ViewBag.Message = "Welcome to Vina Shoe Shop - điểm đến hàng đầu cho những đôi giày thời trang chất lượng và đa dạng!";
+}
+
+<style>
+    .shop-title {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #ff7f50; /* Màu cam */
+    }
+
+    .shop-message {
+        font-size: 20px; /* Font-size lớn hơn 1 chút */
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #1e90ff; /* Màu xanh dương */
+    }
+
+    .shop-highlight {
+        font-weight: bold;
+        color: #32cd32; /* Màu xanh lá cây */
+    }
+</style>
+
+<h2>@ViewBag.Title.</h2>
+<h3 class="shop-title">@Html.Raw(ViewBag.Message)</h3>
+
+<p class="shop-title"><span class="shop-highlight">Vina Shoe Shop</span></p>
+<p><span class="shop-highlight">Chúng tôi tự hào</span> là địa chỉ uy tín và tin cậy cho những ai đam mê thời trang và muốn tỏa sáng với phong cách riêng của mình. Với một bộ sưu tập đa dạng các loại giày từ các thương hiệu hàng đầu, <span class="shop-highlight">chúng tôi cam kết</span> mang đến cho bạn những sản phẩm chất lượng với mức giá hợp lý nhất.</p>
+
+<p>Chúng tôi hiểu rằng giày không chỉ là một vật dụng, mà còn là biểu tượng cá nhân và phản ánh phong cách của bạn. Đó là lý do tại Vina Shoe Shop, <span class="shop-highlight">chúng tôi luôn cập nhật</span> xu hướng mới nhất và mang đến những mẫu mã phong cách để bạn có thể tự tin bước đi mỗi ngày.</p>
+
+<p>Không chỉ là nơi mua sắm, Vina Shoe Shop còn là điểm đến để bạn trải nghiệm và khám phá thế giới giày dép đa dạng. Với dịch vụ chăm sóc khách hàng tận tâm và đội ngũ nhân viên chuyên nghiệp, <span class="shop-highlight">chúng tôi luôn sẵn sàng đồng hành</span> cùng bạn trong mọi chuyến hành trình thời trang.</p>
+
+<p>Hãy đến với <span class="shop-highlight">Vina Shoe Shop</span> ngay hôm nay và khám phá bộ sưu tập đa dạng của chúng tôi. <span class="shop-highlight">Chúng tôi tin</span> rằng bạn sẽ tìm thấy đôi giày hoàn hảo để phản ánh phong cách riêng của mình!</p>
