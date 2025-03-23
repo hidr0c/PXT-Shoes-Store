@@ -1,334 +1,341 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Vina Shoe Shop Thời Trang Cho Giới Trẻ</title>
+    <title>@ViewBag.Title - PXT Shoes Shop</title>
+
+    <!-- Styles -->
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
     <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
-    <link rel=" stylesheet" href="~/Content/Style.css" />
+    <link rel="stylesheet" href="~/Content/Style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
-    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
-    <script src="~/Scripts/jquery-3.4.1.js"></script>
+
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/modernizr")
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
     @using VinaShoseShop.Models
 
-    <style type="text/css">
+    <style>
+        :root {
+            --primary-color: #6B48FF; /* Vibrant Purple */
+            --secondary-color: #20C997; /* Teal */
+            --background-color: #F8F9FA; /* Light Gray */
+            --text-color: #333333; /* Dark Gray */
+            --accent-color: #FF6B6B; /* Coral */
+        }
+
         body {
-            background-color: #F0F0F0;
+            background-color: var(--background-color);
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: var(--text-color);
         }
 
-        .navbar-inverse {
-            background-color: #39B54A;
-            border-color: #39B54A;
+        /* Updated Header Styles */
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
         }
 
-        .top_header {
-            background-color: black;
-            padding-left: 110px;
-            color: white;
-        }
-
-        .form-inline {
-            float: right;
-            padding-top: 10px;
-        }
-
-        .navbar-inverse .navbar-nav > li > a {
-            color: white;
-            font-size: x-large;
-        }
-
-        .navbar-inverse .navbar-brand {
-            color: white;
-        }
-
-        .navbar-inverse .navbar-nav > li > a {
-            color: white;
-            font-size: large;
-        }
-
-            .navbar-inverse .navbar-nav > li > a:hover {
-                color: black;
+            .header .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                height: 60px; /* Fixed height for consistent alignment */
             }
 
-        .navbar-brand {
-            color: cadetblue;
-        }
-
-        .spnoibat {
-            background-color: white;
-        }
-
-            .spnoibat h3 {
-                padding-left: 30px;
+            .header .navbar-brand {
+                color: var(--primary-color);
+                font-size: 2.2rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+                display: flex;
+                align-items: center;
             }
 
-        .giohang {
-            color: white;
+            .header .navbar-nav {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                height: 100%; /* Ensure nav takes full height of container */
+            }
+
+                .header .navbar-nav > li {
+                    display: flex;
+                    align-items: center; /* Center each nav item vertically */
+                }
+
+                    .header .navbar-nav > li > a {
+                        color: var(--text-color);
+                        font-size: 1.4rem;
+                        padding: 10px 20px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        transition: color 0.3s ease;
+                        line-height: 1;
+                        display: flex;
+                        align-items: center; /* Ensure link text is centered */
+                    }
+
+                        .header .navbar-nav > li > a:hover {
+                            color: var(--primary-color);
+                        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            height: 100%; /* Ensure actions take full height of container */
         }
 
-        .btn-link {
-            display: inline-block;
-            padding: 6px 12px;
-            margin-bottom: 0;
-            font-size: 14px;
-            font-weight: normal;
-            line-height: 1.42857143;
-            text-align: center;
-            white-space: nowrap;
-            vertical-align: middle;
-            cursor: pointer;
-            background-image: none;
-            border: 1px solid transparent;
-            border-radius: 4px;
-            color: #337ab7;
-            border-color: #2e6da4;
-            text-decoration: none; /* Loại bỏ gạch chân */
+        .cart-icon {
+            color: var(--secondary-color);
+            font-size: 2rem;
+            position: relative;
+            display: flex;
+            align-items: center;
         }
 
-            .btn-link:hover {
-                color: #23527c;
-                background-color: transparent;
-                border-color: #1e4f78;
+        .cart-count {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: var(--accent-color);
+            color: #fff;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-header {
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            line-height: 1;
+            display: flex;
+            align-items: center; /* Ensure button text is centered */
+        }
+
+            .btn-header:hover {
+                background-color: var(--primary-color);
+                color: #fff;
+            }
+
+        /* Mobile Toggle */
+        .navbar-toggle {
+            display: none;
+            border: none;
+            background: transparent;
+            font-size: 2rem;
+            color: var(--primary-color);
+            line-height: 1;
+            display: flex;
+            align-items: center; /* Center toggle icon */
+        }
+
+        @@media (max-width: 768px) {
+            .navbar-toggle {
+                display: block;
+            }
+
+            .header .container {
+                height: auto; /* Allow height to adjust on mobile */
+            }
+
+            .header .navbar-nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+                padding: 10px 0;
+                height: auto; /* Reset height for mobile */
+            }
+
+                .header .navbar-nav.active {
+                    display: flex;
+                }
+
+                .header .navbar-nav > li {
+                    display: block; /* Stack items vertically */
+                }
+
+                    .header .navbar-nav > li > a {
+                        font-size: 1.2rem;
+                        padding: 15px 0;
+                    }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                padding: 10px 0;
+                height: auto; /* Reset height for mobile */
+            }
+
+            .btn-header {
+                font-size: 1.1rem;
+                padding: 6px 15px;
+            }
+
+            .cart-icon {
+                font-size: 1.8rem;
+            }
+
+            .cart-count {
+                width: 20px;
+                height: 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Rest of the styles */
+        .container.body-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-top: 100px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: #fff;
+            padding: 60px 30px 30px;
+            margin-top: 40px;
+        }
+
+            footer h2 {
+                color: #fff;
+                font-size: 1.4rem;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            footer a {
+                color: rgba(255,255,255,0.9);
+                text-decoration: none;
+                display: block;
+                margin-bottom: 10px;
+                transition: all 0.3s ease;
+            }
+
+                footer a:hover {
+                    color: #fff;
+                    transform: translateX(5px);
+                }
+
+            footer .text-center {
+                margin-top: 30px;
+                font-size: 0.9rem;
+                opacity: 0.9;
             }
     </style>
-
-
-
 </head>
 
 <body>
+    @{ var user = Session["use"] as Nguoidung; }
 
-    @{
-        var u = Session["use"] as VinaShoseShop.Models.Nguoidung;
-    }
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-
-        <div class="top_header col-md-12">
-
-            <div class="row">
-                @*<div class="col-sm-2"><img class="navbar-brand" src="~/HinhanhSP/logo2.jpg" width="20" height="20" style="padding:0" /></div>*@
-                <div class="col-sm-4 col-md-0" style="font-size:large"></div>
-
-                <div class="col-sm-4 col-md-0" style="padding-left:250px">
-                    @*@Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })*@
-
-                </div>
-                @*@Html.Action("GioHangPartial", "GioHang",new { @style = "color:while" })*@
-            <div class="col-sm-4 col-md-0">
-                <a href="@Url.Action("GioHang", "GioHang")"><i class="fa fa-shopping-cart" style="font-size:30px"></i>: (@Html.Action("TongSoLuong", "GioHang"))</a>
-
-                @{
-                    if (u != null)
-                    {
-
-                        <span>Xin chào : @u.Email;</span>
-                        @*@Html.ActionLink("ĐĂNG XUẤT", "DangXuat", "User", new { style = "color:red" }) *@
-                        <a style="color:red" href="/User/DangXuat"> ĐĂNG XUẤT</a>
-                        <a style="color:white" href="/User/Thongtin"> Quản lý thông tin  </a>
-                    }
-                    else
-                    {
-                        <a style="color:white" href="/User/Dangnhap"> Đăng nhập</a>
-                        <span>&nbsp;</span>
-                        <a style="color:white" href="/User/Dangky"> Đăng ký</a>
+    <header class="header">
+        <div class="container">
+            @Html.ActionLink("PXT Shoes Shop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
 
 
-                    }
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Sản phẩm", "Index", "Sanpham")</li>
+                <li>@Html.ActionLink("Liên hệ", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Giới thiệu", "About", "Home")</li>
+            </ul>
+
+            <div class="header-actions">
+                <a href="@Url.Action("GioHang", "GioHang")" class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="cart-count">@Html.Action("TongSoLuong", "GioHang")</span>
+                </a>
+                @if (user != null)
+                {
+                    <span class="mr-2">Hi, @user.Email</span>
+                    <a href="@Url.Action("DangXuat", "User")" class="btn-header">Đăng xuất</a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Dangnhap", "User")" class="btn-header">Đăng nhập</a>
                 }
             </div>
-            </div>
         </div>
-        <div class="container">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @*<img class="navbar-brand" src="~/HinhanhSP/logo2.jpg" width="50" height="50" style="padding:0" />*@
-                @Html.ActionLink("Trang chủ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-                <!--<form class="form-inline" style="float:left">
-                    <input id="searchbox" type="text" placeholder="Tìm kiếm sản phẩm..." aria-label="Search" style="width: 180px; height: 30px;font-size: 14px;" />
-                    <input id="minPrice" type="number" placeholder="Giá thấp nhất" aria-label="Giá thấp nhất" style="width: 180px; height: 30px; font-size: 14px;" />
-                    <input id="maxPrice" type="number" placeholder="Giá cao nhất" aria-label="Giá cao nhất" style="width: 180px; height: 30px;font-size: 14px;" />-->
-                @*<label for="color-select" class="mr-sm-2" style="color: white">Màu sắc</label>
-                    <select id="color-select" class="form-control mr-sm-2">
-                        <option value="red">Đỏ</option>
-                        <option value="white">Trắng</option>
-                        <option value="blue">Xanh</option>
-                        <option value="black">Đen</option>
-                        <option value="purple">Tím</option>
-                        <option value="pink">Hồng</option>
-                    </select>
-                    <label for="size-select" class="mr-sm-2" style="color: white">Size</label>
-                    <select id="size-select" class="form-control mr-sm-2">
-                        <option value="40">40</option>
-                        <option value="41">41</option>
-                        <option value="42">42</option>
-                        <option value="43">43</option>
-                        <option value="44">44</option>
-                        <option value="45">45</option>
-                    </select>*@
-                <!--</form>-->
-            </div>
-
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <!--<li>
-                        <a href="/Sanpham/Sneaker" title="sneaker">-->
-                            @*<span><i class=" glyphicon-music "></i></span>*@
-                            <!--<span>SNEAKER</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/Sanpham/Loafer" title="loafer">-->
-                            @*<span><i class="fas fa-tablet"></i></span>*@
-                            <!--<span>LOAFER</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/Sanpham/Brogues" title="brogues">-->
-                            @*<span><i class="fas fa-tablet"></i></span>*@
-                            <!--<span>BROGUES</span>
-                        </a>
-                    </li>-->
-                    <!--<li>
-                        <a href="#" title="blucher">-->
-                            @*<span><i class="fas fa-tablet"></i></span>*@
-                            <!--<span>BLUCHER</span>
-                        </a>
-                    </li>-->
-
-                    <!--<li>
-                        <a href="#" title="sandal">-->
-                            @*<span><i class="fas fa-desktop"></i></span>*@
-                            <!--<span>SANDAL</span>
-                        </a>
-                    </li>-->
-
-
-                    <li>
-                        <a href="/Home/Contact" title="LIENHE">
-                            @*<span><i class="fas fa-headphones"></i></span>*@
-                            <span>Liên hệ</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="/Home/About" title="THONGTIN">
-                            @*<span><i class=" glyphicon-music "></i></span>*@
-                            <span>Thông tin</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Sanpham/Index" title="btn-link">
-                            Tất cả sản phẩm
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
-
-    <br>
+    </header>
 
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <div>
-            *<img class="img-responsive" src="~/HinhanhSP/slider_1.jpg" />*
-        </div>
-        <br />
     </div>
-    <footer class="bg-info" style="padding-left:50px">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <h2>Bảo hành</h2>
-                <a href="https://vinashoes.com/huong-dan-mua-hang/" target="_blank">Chính Sách Mua Hàng</a>
-                <br />
-                <a href="https://vinashoes.com/chinh-sach-bao-mat/" target="_blank">Chính Sách Bảo Mật</a>
-                <br />
-                <a href="https://localhost:44322/Home/Contact" target="_blank">Trung Tâm Chăm Sóc Khách Hàng</a>
-                <br />
-                <a href="https://vinashoes.com/chinh-sach-hoan-tien/" target="_blank">Chính Sách Hoàn Tiền</a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <h2>Liên kết</h2>
-                <a href="https://vnexpress.net/ong-trump-ra-mat-mau-giay-vang-anh-kim-khong-dau-hang-4712713.html" target="_blank">Tin Tức</a>
-                <br />
-                <a href="https://www.topcv.vn/lap-trinh-web-la-gi" target="_blank">Lập Trình Web</a>
-                <br />
-                <a href="https://genk.vn/loat-giay-the-thao-thu-dong-dang-sale-manh-co-doi-gia-chi-125000-dong-20231010102432871.chn" target="_blank">GenkVn</a>
-                <br />
-                <a href="https://dantri.com.vn/" target="_blank">Dân Trí</a>
 
-
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h2>Chính sách</h2>
+                    <a href="https://vinashoes.com/huong-dan-mua-hang/" target="_blank">Hướng Dẫn Mua Hàng</a>
+                    <a href="https://vinashoes.com/chinh-sach-bao-mat/" target="_blank">Bảo Mật</a>
+                    <a href="@Url.Action("Contact", "Home")" target="_blank">Hỗ Trợ Khách Hàng</a>
+                    <a href="https://vinashoes.com/chinh-sach-hoan-tien/" target="_blank">Hoàn Tiền</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Liên kết</h2>
+                    <a href="https://vnexpress.net" target="_blank">Tin Tức</a>
+                    <a href="https://www.topcv.vn/lap-trinh-web-la-gi" target="_blank">Lập Trình Web</a>
+                    <a href="https://genk.vn" target="_blank">GenkVn</a>
+                    <a href="https://dantri.com.vn/" target="_blank">Dân Trí</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Thông tin</h2>
+                    <a href="@Url.Action("About", "Home")" target="_blank">Về Chúng Tôi</a>
+                    <a href="@Url.Action("Contact", "Home")" target="_blank">Liên Hệ</a>
+                    <a href="@Url.Action("Contact", "Home")" target="_blank">Góp Ý</a>
+                    <a href="@Url.Action("Donhang", "User")" target="_blank">Tra Cứu Đơn</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Kết nối</h2>
+                    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+                    <a href="https://www.facebook.com/VinagiayExport/" target="_blank">Facebook</a>
+                    <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <h2>Thông tin</h2>
-                <a href="https://localhost:44322/Home/About" target="_blank">Về Chúng Tôi</a>
-                <br />
-                <a href="https://localhost:44322/Home/Contact" target="_blank">Liên Hệ</a>
-                <br />
-                <a href="https://localhost:44322/Home/Contact" target="_blank">Góp Ý</a>
-                <br />
-                <a href="https://localhost:44322/User/Donhang" target="_blank">Tra Cứu</a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <h2>Theo dõi</h2>
-                <a href="https://www.youtube.com" target="_blank">Youtube</a>
-                <br />
-                <a href="https://www.facebook.com/VinagiayExport/?locale=vi_VN" target="_blank">Fanpage</a>
-                <br />
-                <a href="https://www.tiktok.com" target="_blank">TikTok</a>
-                <br />
-                <a href="https://www.instagram.com" target="_blank">Instagram</a>
-            </div>
+            <p class="text-center">© @DateTime.Now.Year - PXT Shoes Shop. All Rights Reserved.</p>
         </div>
-        <hr />
-        <end> <p >&copy; @DateTime.Now.Year - VinaShoe</p></end>
     </footer>
-
-
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script>
+        // Toggle mobile menu
+        document.querySelector('.navbar-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar-nav').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
-
-
-<script>
-    // Hàm xử lý tìm kiếm
-    function search() {
-        var searchQuery = document.getElementById("searchInput").value;
-        var minPrice = document.getElementById("minPrice").value;
-        var maxPrice = document.getElementById("maxPrice").value;
-
-        var url = '@Url.Action("Index")' + '?searchQuery=' + encodeURIComponent(searchQuery) + '&minPrice=' + encodeURIComponent(minPrice) + '&maxPrice=' + encodeURIComponent(maxPrice);
-
-        window.location.href = url;
-    }
-
-    // Sự kiện click cho nút tìm kiếm
-    document.getElementById('searchButton').addEventListener('click', function () {
-        search();
-    });
-
-    // Sự kiện nhấn phím Enter để tìm kiếm
-    document.addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            search();
-        }
-    });
-</script>

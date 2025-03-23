@@ -1,0 +1,180 @@
+﻿/* Scripts/CSS/styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #264653; /* Dark background to blend with hero and footer */
+    color: #264653;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 70vh;
+    width: 100vw; /* Full viewport width */
+    margin: 0; /* Remove any default margins */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: #fff;
+}
+
+    .hero-content h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+.btn-success {
+    background-color: #2A9D8F;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+    .btn-success:hover {
+        background-color: #E9C46A;
+    }
+
+/* Featured Products */
+.featured-products {
+    background-color: #F4F4F4; /* Light background for contrast */
+    margin: 0;
+    padding: 50px 0;
+}
+
+.product-card {
+    transition: transform 0.3s;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+
+    .product-card img {
+        border-radius: 10px;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+.badge {
+    background-color: #E9C46A;
+    color: #264653;
+}
+
+/* Brand Section */
+.brand-section {
+    background-color: #fff; /* White background for contrast */
+    margin: 0;
+    padding: 50px 0;
+}
+
+.brand-logo {
+    transition: transform 0.3s;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+    .brand-logo:hover {
+        transform: scale(1.1);
+    }
+
+    .brand-logo img {
+        max-width: 100px;
+    }
+
+/* Video Section */
+.video-section {
+    background-color: #F4F4F4; /* Light background for contrast */
+    margin: 0;
+    padding: 50px 0;
+}
+
+.watch-more {
+    color: #2A9D8F;
+    transition: color 0.3s;
+}
+
+    .watch-more:hover {
+        color: #E9C46A;
+    }
+
+/* News Section */
+.news-section {
+    background-color: #fff; /* White background for contrast */
+    margin: 0;
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #264653;
+    color: #fff;
+    padding: 40px 0;
+    margin: 0;
+}
+
+    footer a {
+        color: #E9C46A;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            color: #2A9D8F;
+        }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .product-card {
+        margin-bottom: 20px;
+    }
+
+    .brand-logo img {
+        max-width: 80px;
+    }
+}
