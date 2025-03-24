@@ -1,0 +1,113 @@
+﻿/* AboutStyles.css */
+
+/* About Section */
+.about-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Banner/Salt3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background for a parallax effect */
+    padding: 80px 0; /* Increased padding for better spacing */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Shop Title */
+.shop-title {
+    font-size: 3rem; /* Increased font size */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* White for contrast against the dark background */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added shadow for better readability */
+}
+
+/* Shop Message */
+.shop-message {
+    font-size: 1.5rem; /* Increased font size */
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffffff; /* White for contrast */
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(107, 72, 255, 0.2); /* Slightly darker background for the message */
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow for better readability */
+}
+
+/* About Content */
+.about-content {
+    max-width: 1000px; /* Increased width for better readability */
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff; /* Solid white background for maximum readability */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+}
+
+    /* Paragraphs */
+    .about-content p {
+        font-size: 1.25rem; /* Increased font size */
+        line-height: 1.9; /* Increased line height for better readability */
+        color: #333333; /* Dark color for readability on the white background */
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+
+/* Shop Highlight */
+.shop-highlight {
+    font-weight: 700;
+    color: #6B48FF; /* Primary color for highlights */
+}
+
+/* Call to Action Button */
+.cta-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    background: #6B48FF; /* Primary color */
+    border: none;
+    color: white;
+    padding: 14px 35px; /* Increased padding for a larger button */
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem; /* Increased font size */
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .cta-button:hover {
+        background: #5a3de6; /* Slightly darker shade */
+    }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .shop-title {
+        font-size: 2.2rem; /* Adjusted for mobile */
+    }
+
+    .shop-message {
+        font-size: 1.2rem; /* Adjusted for mobile */
+        padding: 10px 15px;
+    }
+
+    .about-content {
+        padding: 20px;
+    }
+
+        .about-content p {
+            font-size: 1.1rem; /* Adjusted for mobile */
+            text-align: left; /* Left-aligned for better readability on mobile */
+        }
+
+    .cta-button {
+        padding: 12px 30px;
+        font-size: 1rem; /* Adjusted for mobile */
+    }
+}

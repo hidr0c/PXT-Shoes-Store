@@ -1,0 +1,224 @@
+﻿/* NikeStyles.css */
+
+/* Nike Section */
+.nike-section {
+    background-color: #f8f9fa; /* Light gray background for a clean look */
+    padding: 40px 0;
+    min-height: 100vh;
+}
+
+/* Brand Container */
+.brand-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Brand Title */
+.brand-title {
+    font-size: 2.5rem;
+    color: #333333; /* Dark color for a professional look */
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    border-left: 4px solid #6B48FF; /* Accent with primary color */
+}
+
+/* Products Container */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0 15px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-color: #f5f5f5;
+}
+
+    .product-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-bottom: 1px solid #eee;
+        transition: transform 0.3s ease;
+    }
+
+        .product-image img:hover {
+            transform: scale(1.05);
+        }
+
+/* Sale Badge */
+.sale-badge {
+    background: #e63946; /* Red for sale badge */
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Product Details */
+.product-details {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+    .product-details h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #333333;
+        margin: 0 0 10px;
+        font-family: Arial, sans-serif;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .product-details .price {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-family: Arial, sans-serif;
+    }
+
+        .product-details .price .sale-price {
+            color: #e63946; /* Red for sale price */
+            font-weight: 700;
+        }
+
+        .product-details .price .original-price {
+            color: #999;
+            text-decoration: line-through;
+            margin-left: 10px;
+            font-size: 0.9rem;
+        }
+
+        .product-details .price .regular-price {
+            color: #333333;
+        }
+
+    /* Form Elements */
+    .product-details form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .product-details label {
+        font-size: 0.9rem;
+        color: #333333;
+        font-family: Arial, sans-serif;
+        font-weight: 500;
+    }
+
+    .product-details select,
+    .product-details input[type="number"] {
+        width: 100%;
+        max-width: 120px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 0.9rem;
+    }
+
+        .product-details select:focus,
+        .product-details input[type="number"]:focus {
+            border-color: #6B48FF;
+            outline: none;
+            box-shadow: 0 0 5px rgba(107, 72, 255, 0.2);
+        }
+
+/* Add to Cart Button */
+.btn-add-to-cart {
+    background: #6B48FF; /* Match the primary color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+    .btn-add-to-cart:hover {
+        background: #5a3de6; /* Slightly darker shade */
+    }
+
+    .btn-add-to-cart:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(107, 72, 255, 0.3);
+    }
+
+    .btn-add-to-cart::before {
+        content: '\f07a'; /* FontAwesome cart icon */
+        font-family: 'FontAwesome';
+        font-size: 1rem;
+    }
+
+/* Cart Notification */
+.cart-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .brand-title {
+        font-size: 2rem;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+}

@@ -1,0 +1,195 @@
+﻿/* ContactStyles.css */
+
+/* Contact Section */
+.contact-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/Banner/Salt.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0; /* Increased padding for better spacing */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Title */
+.contact-title {
+    font-size: 3.5rem; /* Slightly larger title */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin for better spacing */
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Stronger shadow for readability */
+    background-color: rgba(107, 72, 255, 0.2); /* Subtle background for the title */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Contact Container */
+.contact-container {
+    max-width: 900px; /* Reduced width for a more focused layout */
+    margin: 0 auto;
+    padding: 40px; /* Increased padding for more space */
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+}
+
+/* Contact Info and Email Section */
+.contact-info, .email-section {
+    font-size: 1.3rem; /* Slightly larger text */
+    line-height: 2; /* Increased line height for better readability */
+    color: #333333;
+    margin-bottom: 40px; /* Increased margin for better spacing */
+}
+
+    .contact-info strong, .email-section strong {
+        color: #6B48FF; /* Primary color for labels */
+        font-weight: 700;
+    }
+
+    /* Contact Info and Email Items */
+    .contact-info p, .email-section p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px; /* Added spacing between items */
+    }
+
+/* Phone */
+.phone {
+    color: #6B48FF; /* Primary color */
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* Email Links */
+.email a {
+    color: #6B48FF; /* Primary color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    .email a:hover {
+        color: #5a3de6; /* Slightly darker shade */
+        text-decoration: underline;
+    }
+
+/* Contact Form */
+.contact-form {
+    margin-top: 50px; /* Increased margin for better separation */
+    padding-top: 40px; /* Increased padding for better separation */
+    border-top: 1px solid #ddd;
+}
+
+    .contact-form h3 {
+        font-size: 1.8rem; /* Larger heading */
+        font-weight: 600;
+        color: #333333;
+        margin-bottom: 30px; /* Increased margin for better spacing */
+        text-align: center;
+    }
+
+.form-group {
+    margin-bottom: 25px; /* Increased margin for better spacing */
+}
+
+    .form-group label {
+        display: block;
+        font-size: 1.1rem; /* Slightly larger label */
+        font-weight: 500;
+        color: #333333;
+        margin-bottom: 10px; /* Increased margin for better spacing */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 12px; /* Increased padding for better appearance */
+        border: 1px solid #ddd;
+        border-radius: 8px; /* Slightly larger border radius */
+        font-family: Arial, sans-serif;
+        font-size: 1.1rem; /* Slightly larger text */
+        color: #333333;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #6B48FF;
+            outline: none;
+            box-shadow: 0 0 5px rgba(107, 72, 255, 0.3); /* Slightly stronger shadow */
+        }
+
+    .form-group textarea {
+        height: 180px; /* Increased height for better usability */
+        resize: vertical;
+    }
+
+.submit-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    background: #6B48FF; /* Primary color */
+    border: none;
+    color: white;
+    padding: 14px 40px; /* Increased padding for a larger button */
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem; /* Slightly larger text */
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .submit-button:hover {
+        background: #5a3de6; /* Slightly darker shade */
+    }
+
+/* Icons */
+.contact-info i,
+.email-section i {
+    color: #6B48FF; /* Primary color */
+    margin-right: 15px; /* Increased margin for better spacing */
+    font-size: 1.5rem; /* Larger icons */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-title {
+        font-size: 2.5rem; /* Adjusted for mobile */
+    }
+
+    .contact-container {
+        padding: 25px; /* Adjusted for mobile */
+    }
+
+    .contact-info, .email-section {
+        font-size: 1.1rem; /* Adjusted for mobile */
+    }
+
+        .contact-info i, .email-section i {
+            font-size: 1.3rem; /* Adjusted for mobile */
+        }
+
+    .contact-form h3 {
+        font-size: 1.5rem; /* Adjusted for mobile */
+    }
+
+    .form-group label {
+        font-size: 1rem; /* Adjusted for mobile */
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 1rem; /* Adjusted for mobile */
+        padding: 10px; /* Adjusted for mobile */
+    }
+
+    .submit-button {
+        padding: 12px 30px; /* Adjusted for mobile */
+        font-size: 1rem; /* Adjusted for mobile */
+    }
+}
