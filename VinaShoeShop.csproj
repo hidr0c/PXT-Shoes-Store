@@ -211,6 +211,9 @@
     <Content Include="Areas\Assets\src\assets\demo\datatables-demo.js" />
     <Content Include="Areas\Assets\src\assets\img\error-404-monochrome.svg" />
     <Content Include="Areas\Assets\src\js\scripts.js" />
+    <Content Include="Banner\Salt3.jpg" />
+    <Content Include="Banner\Salt2.jpg" />
+    <Content Include="Banner\Salt1.jpg" />
     <Content Include="Banner\Salt.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -439,6 +442,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\CSS\LoginStyles.css" />
     <Content Include="Scripts\CSS\styles.css" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

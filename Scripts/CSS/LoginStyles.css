@@ -1,0 +1,142 @@
+﻿/* LoginStyles.css */
+
+/* Login Section */
+.login-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Banner/Salt.jpg') ;
+    background-size: cover ;
+    background-position: center 70% ;
+    background-color: #333 ; /* Fallback color */
+    min-height: 100vh ; /* Ensure the section takes up the full viewport height */
+    display: flex ;
+    align-items: center ; /* Center the form vertically */
+    justify-content: center ; /* Center the form horizontally */
+    padding: 50px 0 ;
+    width: 100% ;
+    box-sizing: border-box ;
+}
+
+    .login-section .container {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Center the form wrapper within the container */
+    }
+
+.login-form-wrapper {
+    background-color: rgba(255, 255, 255, 0.95) ; /* Slightly transparent white background */
+    border-radius: 10px ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) ;
+    padding: 40px ; /* Increased padding for better spacing */
+    max-width: 600px ; /* Increased width for better fit */
+    width: 100% ;
+    box-sizing: border-box ;
+}
+
+.login-title {
+    color: #333333 ;
+    font-family: Arial, sans-serif ;
+    font-size: 2rem ; /* Increased font size */
+    font-weight: 700 ;
+    text-align: center ;
+    margin-bottom: 30px ;
+}
+
+.form-horizontal .form-group {
+    margin-bottom: 20px ;
+}
+
+.form-horizontal .control-label {
+    color: #495057 ;
+    font-family: Arial, sans-serif ;
+    font-size: 1rem ;
+    font-weight: 600 ;
+    text-align: left ;
+}
+
+.form-horizontal .form-control {
+    font-family: Arial, sans-serif ;
+    font-size: 1rem ;
+    border-radius: 5px ;
+    border: 1px solid #ced4da ;
+    padding: 10px ;
+    transition: border-color 0.3s ease ;
+}
+
+    .form-horizontal .form-control:focus {
+        border-color: #6B48FF ;
+        box-shadow: 0 0 5px rgba(107, 72, 255, 0.3) ;
+    }
+
+.form-horizontal .text-danger {
+    color: #dc3545 ;
+    font-family: Arial, sans-serif ;
+    font-size: 0.875rem ;
+    margin-top: 5px ;
+}
+
+.login-btn {
+    background-color: #6B48FF ; /* Match the primary color from hero-section */
+    border: none ;
+    padding: 10px 20px ;
+    font-family: Arial, sans-serif ;
+    font-size: 1rem ;
+    border-radius: 25px ;
+    transition: background-color 0.3s ease ;
+    width: 100% ;
+    display: block ;
+    margin: 0 auto ; /* Center the button */
+}
+
+    .login-btn:hover {
+        background-color: #5a3de6 ; /* Slightly darker shade of primary color */
+    }
+
+.register-link {
+    color: #6B48FF ;
+    font-family: Arial, sans-serif ;
+    font-size: 0.9rem ;
+    text-decoration: none ;
+    display: block ;
+    text-align: center ;
+    margin-top: 10px ;
+}
+
+    .register-link:hover {
+        text-decoration: underline ;
+        color: #5a3de6 ;
+    }
+
+/* Responsive Adjustments for Login Section */
+@media (max-width: 768px) {
+    .login-section {
+        padding: 30px 0 ;
+    }
+
+    .login-form-wrapper {
+        padding: 20px ;
+        max-width: 90% ; /* Adjust width for smaller screens */
+    }
+
+    .login-title {
+        font-size: 1.5rem ;
+    }
+
+    .form-horizontal .control-label {
+        text-align: left ;
+        margin-bottom: 5px ;
+    }
+
+    .form-horizontal .form-control {
+        font-size: 0.9rem ;
+        padding: 8px ;
+    }
+
+    .login-btn {
+        padding: 8px 15px ;
+        font-size: 0.9rem ;
+    }
+
+    .register-link {
+        font-size: 0.85rem ;
+    }
+}
