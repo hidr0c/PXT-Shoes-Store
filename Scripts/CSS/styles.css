@@ -11,10 +11,13 @@
 
 /* Ensure the container constrains its content */
 .container {
-    max-width: 100%;
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    max-width: 1200px; /* Match Bootstrap's default max-width for large screens */
+    width: 100%; /* Ensure it scales down on smaller screens */
+    margin: 0 auto; /* Center the container */
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Ensure the row doesn't cause overflow */
@@ -34,16 +37,26 @@
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../HinhanhSP/hero-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Banner/Salt.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center 15%; /* Move the image down by setting the vertical position to 70% */
+    background-color: #333; /* Fallback color if the image fails to load */
     color: #fff;
     text-align: center;
     padding: 100px 0;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
+    overflow: hidden; /* Prevent overflow */
 }
 
+    .hero-section .container {
+        max-width: 1200px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+/* Hero Section Text and Button */
 .hero-title {
     font-size: 3.5rem;
     font-weight: 700;
@@ -259,6 +272,10 @@
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+
     .hero-title {
         font-size: 2.5rem;
     }
@@ -296,4 +313,9 @@
         .news-card .news-content {
             padding: 10px;
         }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
