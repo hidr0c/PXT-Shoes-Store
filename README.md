@@ -3,6 +3,8 @@
 ## Introduction
 PXT Shoes Shop is a C# application built with Visual Studio 2022 that provides an online shopping platform for shoes. The system supports user authentication, shopping cart management, and order processing, including payment integration with VNPay. It has two main user roles: **Admin** and **User**.
 
+PXT Shoes Shop is developed based on the **VinaShoeShop** template, enhancing its features and performance for a seamless shopping experience.
+
 ## Features
 ### User Functionality
 - **Registration & Login**: Secure user authentication system.
@@ -66,5 +68,4 @@ Feel free to contribute by submitting pull requests or reporting issues.
 This project is licensed under the MIT License.
 
 ---
-For any queries, contact **support@pxtshoesshop.com**.
-
+For any queries, contact **@hidr0**.
