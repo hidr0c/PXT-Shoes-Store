@@ -42,17 +42,17 @@ namespace VinaShoseShop.Controllers
         // GET: Sanpham
         public ActionResult Nike()
         {
-            var nike = db.Sanphams.Where(n => n.Mahang == 3).Take(20).ToList();
+            var nike = db.Sanphams.Where(n => n.Mahang == 1).Take(20).ToList();
             return PartialView(nike);
         }
         public ActionResult Adidas()
         {
-            var adidas = db.Sanphams.Where(n => n.Mahang == 4).Take(20).ToList();
+            var adidas = db.Sanphams.Where(n => n.Mahang == 2).Take(20).ToList();
             return PartialView(adidas);
         }
         public ActionResult Puma()
         {
-            var puma = db.Sanphams.Where(n => n.Mahang == 1).Take(20).ToList();
+            var puma = db.Sanphams.Where(n => n.Mahang == 3).Take(20).ToList();
             return PartialView(puma);
         }
         //public ActionResult Vans()
@@ -79,13 +79,13 @@ namespace VinaShoseShop.Controllers
 
         public ActionResult Loafer()
         {
-            var loafer = db.Sanphams.Where(n => n.Makieudang == 2).Take(30).ToList();
+            var loafer = db.Sanphams.Where(n => n.Makieudang == 5).Take(30).ToList();
             return PartialView(loafer);
         }
 
         public ActionResult Brogues()
         {
-            var brogues = db.Sanphams.Where(n => n.Makieudang == 3).Take(30).ToList();
+            var brogues = db.Sanphams.Where(n => n.Makieudang == 11).Take(30).ToList();
             return PartialView(brogues);
         }
     }

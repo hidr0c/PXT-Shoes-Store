@@ -1,11 +1,115 @@
 ﻿@using VinaShoseShop.Models
 @model List<Sanpham>
+<style>
+    .brand-container {
+        text-align: center; /* Căn giữa nội dung */
+        margin-bottom: 20px; /* Thêm khoảng cách dưới */
+    }
 
+    .brand-title {
+        font-size: 30px; /* Tăng kích thước chữ */
+        color: #f66; /* Đổi màu chữ thành màu cam đậm */
+        font-weight: bold;
+        font-family: 'Arial Black', sans-serif; /* Thay đổi font chữ */
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        border: 3px solid #f66; /* Thêm khung cho tiêu đề và tăng độ dày khung */
+        padding: 15px; /* Thêm khoảng cách giữa chữ và khung */
+        display: inline-block; /* Để khung không chiếm hết chiều rộng */
+        width: 70%; /* Đặt chiều rộng cho khung để nó dài hơn */
+        margin: 0 auto; /* Căn giữa khung */
+        background-color: rgba(255, 255, 255, 0.8); /* Thêm nền mờ để làm nổi bật chữ */
+    }
+
+    .products-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 0; /* Thêm padding trên dưới cho phần container */
+    }
+
+    .product-card {
+        width: 250px;
+        margin: 10px;
+        text-align: center;
+        border: 1px solid #ddd; /* Thêm viền cho sản phẩm */
+        border-radius: 10px;
+        padding: 15px;
+        transition: transform 0.2s;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        background-color: #fff; /* Đổi màu nền thành trắng */
+    }
+
+        .product-card:hover {
+            transform: scale(1.05); /* Phóng to sản phẩm khi di chuột qua */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng mạnh hơn khi hover */
+        }
+
+    .product-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transition: transform 0.2s;
+    }
+
+        .product-image img:hover {
+            transform: scale(1.1); /* Phóng to hình ảnh khi di chuột qua */
+        }
+
+    .product-details {
+        margin-top: 10px; /* Khoảng cách giữa tên sản phẩm và giá */
+    }
+
+        .product-details h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+            .product-details h3.price {
+                color: #f00; /* Đổi màu chữ giá thành đỏ */
+                font-weight: bold;
+            }
+
+    .btn-add-to-cart {
+        background-color: #f66; /* Đổi màu nút thành màu cam đậm */
+        color: #fff; /* Màu chữ trắng */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .btn-add-to-cart:hover {
+            background-color: #f00; /* Đổi màu nút khi hover thành đỏ */
+        }
+
+    .product-card {
+        position: relative;
+        overflow: hidden; /* Đảm bảo các phần tử con không bị tràn */
+    }
+
+    .sale-badge {
+        background: red;
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+</style>
 @section Styles {
     <link href="@Url.Content("~/Scripts/CSS/NikeStyles.css")" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" type="text/css" />
 }
-
+<div class="header">
+    <h3 class="brand-title">LOAFER</h3>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-back">Quay lại trang chủ</a> <!-- Nút quay lại -->
+</div>
 <section class="nike-section">
     <div class="container">
         <div class="brand-container">
@@ -64,14 +168,13 @@
                             </select>
                             <input type="number" name="quantity" value="1" min="1" required>
                             <input type="submit" value="Thêm vào giỏ" class="btn btn-primary btn-add-to-cart" data-product-name="@item.Tensp" />
+                            <div class="cart-notification" id="cart-notification">
+                                Sản phẩm đã được thêm vào giỏ hàng!
+                            </div>
                         }
                     </div>
                 </div>
-            }
-        </div>
-
-        <div class="cart-notification" id="cart-notification">
-            Sản phẩm đã được thêm vào giỏ hàng!
+             }
         </div>
     </div>
 </section>
