@@ -1,180 +1,299 @@
-﻿/* Scripts/CSS/styles.css */
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #264653; /* Dark background to blend with hero and footer */
-    color: #264653;
-    margin: 0;
+﻿/* Index.cshtml Styles */
+
+/* General Section Styles */
+.section-title {
+    font-size: 2.5rem;
+    color: #333333; /* Fallback for --text-color */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+/* Ensure the container constrains its content */
+.container {
+    max-width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Ensure the row doesn't cause overflow */
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Ensure columns fit within the row */
+[class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
 }
 
 /* Hero Section */
 .hero-section {
-    position: relative;
-    height: 70vh;
-    width: 100vw; /* Full viewport width */
-    margin: 0; /* Remove any default margins */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../HinhanhSP/hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero-content {
     color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-    .hero-content h1 {
-        font-size: 3rem;
-        font-weight: 600;
-        margin-bottom: 15px;
-    }
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 
-    .hero-content p {
-        font-size: 1.2rem;
-        margin-bottom: 20px;
-    }
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
 
-.btn-success {
-    background-color: #2A9D8F;
+.hero-btn {
+    background-color: #6B48FF; /* Fallback for --primary-color */
     border: none;
-    padding: 10px 30px;
-    font-size: 1.1rem;
-    transition: background-color 0.3s;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
 }
 
-    .btn-success:hover {
-        background-color: #E9C46A;
+    .hero-btn:hover {
+        background-color: #5a3de6; /* Slightly darker shade of primary color */
     }
 
-/* Featured Products */
+/* Featured Products Section */
 .featured-products {
-    background-color: #F4F4F4; /* Light background for contrast */
-    margin: 0;
     padding: 50px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .product-card {
-    transition: transform 0.3s;
-    background: #fff;
-    padding: 15px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
 }
 
     .product-card:hover {
-        transform: scale(1.05);
+        transform: translateY(-5px);
     }
 
-    .product-card img {
+    .product-card .card-img-top {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        background-color: #f5f5f5;
+    }
+
+    .product-card .card-body {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .product-card .card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .product-card .card-text {
+        font-size: 1.1rem;
+        color: #6B48FF; /* Fallback for --primary-color */
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .product-card .btn-outline-primary {
+        border-color: #6B48FF; /* Fallback for --primary-color */
+        color: #6B48FF;
+        padding: 8px 20px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .product-card .btn-outline-primary:hover {
+            background-color: #6B48FF;
+            color: #fff;
+        }
+
+/* Category Section */
+.categories {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.category-card {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+    .category-card .card {
+        border: none;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         border-radius: 10px;
-        max-height: 200px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        background-color: #fff;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+        .category-card .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .category-card .card-img-top {
+        width: 100%;
+        height: 200px;
         object-fit: cover;
     }
 
-.badge {
-    background-color: #E9C46A;
-    color: #264653;
-}
-
-/* Brand Section */
-.brand-section {
-    background-color: #fff; /* White background for contrast */
-    margin: 0;
-    padding: 50px 0;
-}
-
-.brand-logo {
-    transition: transform 0.3s;
-    display: inline-block;
-    margin: 0 15px;
-}
-
-    .brand-logo:hover {
-        transform: scale(1.1);
+    .category-card .card-body {
+        text-align: center;
+        padding: 15px;
     }
 
-    .brand-logo img {
-        max-width: 100px;
+    .category-card .category-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #333333; /* Fallback for --text-color */
+        margin: 0;
     }
 
 /* Video Section */
 .video-section {
-    background-color: #F4F4F4; /* Light background for contrast */
-    margin: 0;
     padding: 50px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.watch-more {
-    color: #2A9D8F;
-    transition: color 0.3s;
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
 }
 
-    .watch-more:hover {
-        color: #E9C46A;
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
     }
 
 /* News Section */
 .news-section {
-    background-color: #fff; /* White background for contrast */
-    margin: 0;
     padding: 50px 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.card {
-    border: none;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+.news-card {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-    .card:hover {
-        transform: translateY(-5px);
+    .news-card img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        flex-shrink: 0;
     }
 
-.card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 200px;
-    object-fit: cover;
-}
+    .news-card .news-content {
+        padding: 15px;
+        flex: 1;
+    }
 
-/* Footer */
-footer {
-    background-color: #264653;
-    color: #fff;
-    padding: 40px 0;
-    margin: 0;
-}
+    .news-card .news-title {
+        font-size: 1.2rem;
+        color: #333333; /* Fallback for --text-color */
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
 
-    footer a {
-        color: #E9C46A;
+    .news-card .news-excerpt {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .news-card .news-link {
+        color: #6B48FF; /* Fallback for --primary-color */
         text-decoration: none;
+        font-weight: 500;
     }
 
-        footer a:hover {
-            color: #2A9D8F;
+        .news-card .news-link:hover {
+            text-decoration: underline;
         }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .hero-section h1 {
-        font-size: 2rem;
+    .hero-title {
+        font-size: 2.5rem;
     }
 
-    .hero-section p {
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-btn {
+        padding: 10px 20px;
         font-size: 1rem;
     }
 
-    .product-card {
-        margin-bottom: 20px;
+    .section-title {
+        font-size: 2rem;
     }
 
-    .brand-logo img {
-        max-width: 80px;
+    .product-card .card-img-top {
+        height: 200px;
     }
+
+    .category-card .card-img-top {
+        height: 150px;
+    }
+
+    .news-card {
+        flex-direction: column;
+    }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+        }
+
+        .news-card .news-content {
+            padding: 10px;
+        }
 }
