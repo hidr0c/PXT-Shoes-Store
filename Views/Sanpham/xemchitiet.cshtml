@@ -21,7 +21,7 @@
         {
             <h3 style="font-size: 1.5rem; margin: 0;">
                 <span style="margin-right: 0.5rem;">Giá:</span>
-                <span style="color: red; font-weight: bold;">@Model.GiaSale đ</span>
+                <span style="color: red; font-weight: bold;">@((Convert.ToDecimal(Model.GiaSale)).ToString("n0")) đ</span>
                 <del style="color: grey; text-decoration: line-through; margin-left: 0.5rem;">@Model.Giatien đ</del>
             </h3>
         }

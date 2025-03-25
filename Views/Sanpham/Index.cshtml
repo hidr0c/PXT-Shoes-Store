@@ -50,16 +50,17 @@
             @if (item.Sale == true)
             {
                 <div class="price">
-                    <span class="sale-price">@item.GiaSale đ</span>
-                    <del class="original-price">@item.Giatien đ</del>
+                    <span class="sale-price">@Convert.ToDecimal(item.GiaSale).ToString("n0") đ</span>
+                    <del class="original-price">@Convert.ToDecimal(item.Giatien).ToString("n0") đ</del>
                 </div>
             }
             else
             {
                 <div class="price">
-                    <span class="regular-price">@item.Giatien đ</span>
+                    <span class="regular-price">@Convert.ToDecimal(item.Giatien).ToString("n0") đ</span>
                 </div>
             }
+
             @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = item.Masp, @strURL = Request.Url.ToString() }, FormMethod.Post, new { @id = "form-" + item.Masp, @class = "add-to-cart-form" }))
             {
                 <label for="size-@item.Masp">Chọn size:</label>
