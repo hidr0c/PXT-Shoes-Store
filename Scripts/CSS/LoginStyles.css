@@ -2,7 +2,7 @@
 
 /* Login Section */
 .login-section {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Banner/Salt.jpg') ;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /*url('/Banner/Salt.jpg')*/ ;
     background-size: cover ;
     background-position: center 70% ;
     background-color: #333 ; /* Fallback color */

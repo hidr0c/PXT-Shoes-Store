@@ -2,7 +2,7 @@
 
 /* Register Section */
 .register-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/Banner/Salt.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), /*url('/Banner/Salt.jpg')*/;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
