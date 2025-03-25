@@ -444,10 +444,12 @@
     </None>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\CSS\AboutStyles.css" />
+    <Content Include="Scripts\CSS\AdminStyles.css" />
     <Content Include="Scripts\CSS\ContactStyles.css" />
     <Content Include="Scripts\CSS\LoginStyles.css" />
     <Content Include="Scripts\CSS\NikeStyles.css" />
     <Content Include="Scripts\CSS\ProductStyles.css" />
+    <Content Include="Scripts\CSS\RegisterStyles.css" />
     <Content Include="Scripts\CSS\styles.css" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

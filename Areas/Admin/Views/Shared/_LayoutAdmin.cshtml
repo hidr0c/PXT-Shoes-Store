@@ -1,51 +1,34 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Dashboard - VinaShoeShop</title>
+    <meta name="description" content="Admin Dashboard for PXT Shoes Shop" />
+    <meta name="author" content="PXT Shoes Shop Team" />
+    <title>Dashboard - PXT Shoes Shop</title>
     <link href="~/Content/PagedList.css" rel="stylesheet" />
-    @*<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />*@
     <link href="~/Areas/Assets/dist/css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="@Url.Content("~/Scripts/CSS/AdminStyles.css")" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
-
-    <style type="text/css">
-        .menu1{
-            color:white;
-            padding-left:20px;
-        }
-    </style>
 </head>
 <body class="sb-nav-fixed">
-    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-success">
-        <h3 id="brandLink"><a href="/Home/Index" class="menu1">Vina Shoe Shop</a></h3>
+    <nav class="sb-topnav navbar navbar-expand navbar-dark">
+        <h3 id="brandLink"><a href="/Home/Index" class="menu1">PXT Shoes Shop</a></h3>
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#">
             <i class="fas fa-bars"></i>
         </button>
 
-        <!-- Navbar Search-->
-        <!--<form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-            <div class="input-group">
-                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
-                </div>
-            </div>
-        </form>-->
         <!-- Navbar-->
         <ul class="navbar-nav ml-auto ml-md-0">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                    <a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Activity Log</a>
+                    <a class="dropdown-item" href="#">Cài Đặt</a>
+                    <a class="dropdown-item" href="#">Nhật Ký Hoạt Động</a>
                     <div class="dropdown-divider"></div>
-                    <a href="@Url.Action("Index", "Home")" class="btn btn-back">Đăng xuất</a>
+                    <a href="@Url.Action("Index", "Home")" class="dropdown-item">Đăng Xuất</a>
                 </div>
             </li>
         </ul>
@@ -56,44 +39,20 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading" style="color:white"> <h5>Quản lý</h5></div>
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Sản phẩm", "Index", "Home")
-                        </div>
-                        <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Hãng sản xuất", "Index", "Hangsanxuats")
-                        </div>
-                        <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Kiểu dáng", "Index", "Kieudangs")
-                        </div>
-                        <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Người dùng", "Index", "Nguoidungs")
-                        </div>
-                        <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Phân quyền", "Index", "Phanquyens")
-                        </div>
-                        <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Đơn hàng", "Index", "Donhangs")
-                        </div>
-                        <br />
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Thống kê doanh thu", "Index", "ThongKeDoanhThu")
-                        </div>
-                        @*<br />
-        <div style="padding-left:20px">
-            @Html.ActionLink("Chi tiết đơn hàng", "Index", "Chitietdonhangs")
-        </div>*@
+                        <div class="sb-sidenav-menu-heading"><h5>Quản Lý</h5></div>
+                        @Html.ActionLink("Sản Phẩm", "Index", "Home", null, new { @class = "nav-link" })
+                        @Html.ActionLink("Hãng Sản Xuất", "Index", "Hangsanxuats", null, new { @class = "nav-link" })
+                        @Html.ActionLink("Kiểu Dáng", "Index", "Kieudangs", null, new { @class = "nav-link" })
+                        @Html.ActionLink("Người Dùng", "Index", "Nguoidungs", null, new { @class = "nav-link" })
+                        @Html.ActionLink("Phân Quyền", "Index", "Phanquyens", null, new { @class = "nav-link" })
+                        @Html.ActionLink("Đơn Hàng", "Index", "Donhangs", null, new { @class = "nav-link" })
+                        @Html.ActionLink("Thống Kê Doanh Thu", "Index", "ThongKeDoanhThu", null, new { @class = "nav-link" })
                     </div>
                 </div>
 
                 <div class="sb-sidenav-footer">
-                    <div class="small">Logged in as:</div>
-                    Vina Shoe
+                    <div class="small">Đăng nhập với tư cách:</div>
+                    PXT Shoes Shop
                 </div>
             </nav>
         </div>
@@ -103,14 +62,14 @@
                     @RenderBody()
                 </div>
             </main>
-            <footer class="py-4 bg-light mt-auto">
+            <footer class="py-4 mt-auto">
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Vina Shoe 2024</div>
+                        <div class="text-muted">Bản quyền © PXT Shoes Shop 2024</div>
                         <div>
-                            <a href="#">Privacy Policy</a>
-                            &middot;
-                            <a href="#">Terms &amp; Conditions</a>
+                            <a href="#">Chính Sách Bảo Mật</a>
+                            ·
+                            <a href="#">Điều Khoản & Điều Kiện</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +93,6 @@
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="~/Areas/Assets/dist/assets/demo/datatables-demo.js"></script>
-    @RenderSection("scripts", required: false) <!-- Đây là phần cần thêm vào -->
-
+    @RenderSection("scripts", required: false)
 </body>
 </html>

@@ -1,0 +1,158 @@
+﻿/* RegisterStyles.css */
+
+/* Register Section */
+.register-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/Banner/Salt.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Register Container */
+.register-container {
+    max-width: 600px; /* Reduced width for a balanced layout, matching "Đăng Nhập" */
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Register Title */
+.register-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Form */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+    .form-group label {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #6B48FF; /* Primary color for labels */
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .form-group input {
+        width: 100%; /* Ensure input stretches to the full width of the container */
+        padding: 12px 20px; /* Padding for a longer appearance */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-family: Arial, sans-serif;
+        font-size: 1rem;
+        color: #333333;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-group input:focus {
+            border-color: #6B48FF;
+            outline: none;
+            box-shadow: 0 0 5px rgba(107, 72, 255, 0.3);
+        }
+
+/* Validation Messages */
+.text-danger {
+    color: #e63946;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+.submit-button {
+    background: #6B48FF; /* Primary color */
+    border: none;
+    color: white;
+    padding: 14px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto 0; /* Centered button */
+    display: block;
+    width: fit-content;
+}
+
+    .submit-button:hover {
+        background: #5a3de6; /* Slightly darker shade */
+    }
+
+/* Login Link */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .login-link a {
+        color: #6B48FF; /* Primary color */
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+    }
+
+        .login-link a:hover {
+            color: #5a3de6; /* Slightly darker shade */
+            text-decoration: underline;
+        }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .register-section {
+        padding: 50px 0;
+    }
+
+    .register-container {
+        max-width: 90%; /* Adjusted for mobile */
+        padding: 25px;
+        margin: 0 15px;
+    }
+
+    .register-title {
+        font-size: 2rem;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+        padding: 10px 15px; /* Adjusted padding for mobile */
+    }
+
+    .submit-button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .login-link a {
+        font-size: 0.9rem;
+    }
+}
