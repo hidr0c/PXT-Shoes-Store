@@ -363,3 +363,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 Web.config
+
+# Ignore Visual Studio temporary files
+.vs/
+*.dtbcache.json
