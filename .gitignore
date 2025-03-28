@@ -367,3 +367,10 @@ Web.config
 # Ignore Visual Studio temporary files
 .vs/
 *.dtbcache.json
+*.suo
+
+# Build output directories
+bin/
+obj/
+*.cache
+packages.config

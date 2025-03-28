@@ -2,76 +2,262 @@
 @model List<GioHang>
 
 @{
-    ViewBag.Title = "Giỏ Hàng";
+    ViewBag.Title = "GioHang";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2> GIỎ HÀNG <i class="fa fa-shopping-cart"></i></h2>
-<br />
+<div class="cart-container">
+    <h2 class="cart-title">GIỎ HÀNG <i class="fa fa-shopping-cart"></i></h2>
 
-<table class="table-hover table-bordered divGioHang">
-    <tr>
-        <th>Mã SP</th>
-        <th>Tên SP</th>
-        <th>Ảnh bìa</th>
-        <th>Đơn giá</th>
-        <th>Size</th>
-        <th>Số lượng</th>
-        <th>Thành tiền</th>
-    </tr>
-    @{
-        decimal tongTien = 0;
-    }
-    @foreach (var item in Model)
-    {
-        <tr class="font-italic">
-            <td>@item.iMasp</td>
-            <td>@item.sTensp</td>
-            <td><img src="@Url.Content("~/HinhanhSP/" + item.sAnhBia)" width="50" height="50" /></td>
-            <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
-            <td>@item.Size</td> <!-- Hiển thị Size của sản phẩm -->
-            <td>@item.iSoLuong</td>
-            <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
-        </tr>
-        tongTien += Convert.ToDecimal(item.ThanhTien);
-    }
-
-    <tr>
-        <td colspan="7" style="text-align:right">
-            <strong>Tổng tiền:</strong> @String.Format("{0:0,0}", tongTien) VNĐ
-        </td>
-    </tr>
-    <tr>
-        <td colspan="7" style="text-align:right">
-            @Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang")
-        </td>
-    </tr>
-    <tr>
-        <td colspan="7" style="text-align:right; color:blue">
-            @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @class = "" }))
-            {
-                <input type="submit" value="Đặt hàng COD" class="btn-danger" />
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Mã</th>
+                <th>Tên</th>
+                <th>Giá</th>
+                <th>Size</th>
+                <th>Số lượng</th>
+                <th>Tổng</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                decimal tongTien = 0;
             }
-            <form action="/GioHang/DatHangOnline" method="post">
-                <input type="submit" value="Đặt hàng Vnpay" class="btn-primary" />
+            @foreach (var item in Model)
+            {
+                <tr class="cart-item">
+                    <td><img src="@Url.Content("~/HinhanhSP/" + item.sAnhBia)" alt="@item.sTensp" class="cart-image" /></td>
+                    <td>@item.iMasp</td>
+                    <td>@item.sTensp</td>
+                    <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
+                    @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaSP = item.iMasp, @size = item.Size }, FormMethod.Post))
+                    {
+                        <td>
+                            <select name="txtSize" class="form-control size-select">
+                                @for (int size = 36; size <= 45; size++)
+                                {
+                                    <option value="@size.ToString()" @(item.Size == size.ToString() ? "selected" : "")>Size @size</option>
+                                }
+                            </select>
+                        </td>
+                        <td>
+                            @Html.TextBox("txtSoLuong", item.iSoLuong, new { @class = "form-control quantity-input", @type = "number", @min = "1" })
+                        </td>
+                        <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+                        <td>
+                            <button type="submit" class="btn btn-update">Cập nhật</button>
+                            <a href="/GioHang/XoaGioHang?iMaSP=@item.iMasp" class="btn btn-delete" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng không?');">Xóa</a>
+                        </td>
+                    }
+                </tr>
+                tongTien += Convert.ToDecimal(item.ThanhTien);
+            }
+
+            <tr class="total-row">
+                <td colspan="8">
+                    <strong>Tổng tiền:</strong> @String.Format("{0:0,0}", tongTien) VNĐ
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="cart-actions">
+        <div class="checkout-buttons">
+            @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @class = "checkout-form" }))
+            {
+                <button type="submit" class="btn btn-checkout btn-cod">Đặt hàng COD</button>
+            }
+            <form action="/GioHang/DatHangOnline" method="post" class="checkout-form">
+                <button type="submit" class="btn btn-checkout btn-vnpay">Đặt hàng Vnpay</button>
             </form>
-            <form action="/GioHang/PaymentWithPaypal" method="post">
-                <input type="submit" value="Đặt hàng Paypal" class="btn-primary" />
+            <form action="/GioHang/PaymentWithPaypal" method="post" class="checkout-form">
+                <button type="submit" class="btn btn-checkout btn-paypal">Đặt hàng Paypal</button>
             </form>
-        </td>
-    </tr>
-</table>
+        </div>
+    </div>
+</div>
 
 <style type="text/css">
-    .divGioHang {
-        border: 2px solid #EEEEEE;
-        margin-left: 10%;
-        font-size: large;
+    /* General container styling */
+    .cart-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     }
 
-        .divGioHang td, .divGioHang th {
-            padding: 10px;
-            border: 2px solid #EEEEEE;
+    /* Title styling */
+    .cart-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    /* Table styling */
+    .cart-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .cart-table th, .cart-table td {
+            padding: 15px;
             text-align: center;
+            font-size: 1rem;
+            border-bottom: 1px solid #e0e0e0;
         }
+
+        .cart-table th {
+            background-color: #34495e;
+            color: #fff;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cart-table td {
+            color: #333;
+        }
+
+    /* Image styling */
+    .cart-image {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+
+    /* Size and Quantity inputs */
+    .size-select, .quantity-input {
+        width: 80px;
+        padding: 5px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        transition: border-color 0.3s ease;
+    }
+
+        .size-select:focus, .quantity-input:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+    .quantity-input {
+        width: 60px;
+        text-align: center;
+    }
+
+    /* Total row styling */
+    .total-row {
+        background-color: #ecf0f1;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #e74c3c;
+        text-align: right;
+    }
+
+    /* Action buttons (Update, Delete) */
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        margin: 0 5px;
+    }
+
+    .btn-update {
+        background-color: #f39c12;
+        color: #fff;
+    }
+
+        .btn-update:hover {
+            background-color: #e67e22;
+            transform: translateY(-1px);
+        }
+
+    .btn-delete {
+        background-color: #e74c3c;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .btn-delete:hover {
+            background-color: #c0392b;
+            transform: translateY(-1px);
+        }
+
+    /* Cart actions (Checkout buttons) */
+    .cart-actions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+
+    .checkout-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .checkout-form {
+        display: inline-block;
+    }
+
+    .btn-checkout {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .btn-cod {
+        background-color: #e74c3c;
+        color: #fff;
+    }
+
+        .btn-cod:hover {
+            background-color: #c0392b;
+            transform: translateY(-1px);
+        }
+
+    .btn-vnpay {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+        .btn-vnpay:hover {
+            background-color: #2980b9;
+            transform: translateY(-1px);
+        }
+
+    .btn-paypal {
+        background-color: #f1c40f;
+        color: #333;
+    }
+
+        .btn-paypal:hover {
+            background-color: #d4ac0d;
+            transform: translateY(-1px);
+        }
+
+    /* Hover effect for table rows */
+    .cart-item:hover {
+        background-color: #f5f5f5;
+        transition: background-color 0.3s ease;
+    }
 </style>
