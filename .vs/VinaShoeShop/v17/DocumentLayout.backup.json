@@ -1,305 +1,84 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\scripts\\css\\aboutstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:scripts\\css\\aboutstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\aboutstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\aboutstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\scripts\\css\\adminstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:scripts\\css\\adminstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\adminstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\adminstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\scripts\\css\\contactstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:scripts\\css\\contactstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\contactstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\contactstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\scripts\\css\\loginstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:scripts\\css\\loginstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\loginstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\loginstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\scripts\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:scripts\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\scripts\\css\\registerstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:scripts\\css\\registerstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\registerstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\registerstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\banner\\shoesbanner.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:banner\\shoesbanner.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\phanquyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\phanquyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Donhangs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\models\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\templatesendmail\\send2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:templatesendmail\\send2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\templatesendmail\\send1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:templatesendmail\\send1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\assets\\dist\\password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\assets\\dist\\password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\views\\giohang\\dathangthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:views\\giohang\\dathangthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Nguoidungs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\kieudangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\kieudangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\kieudangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\kieudangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\views\\sanpham\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:views\\sanpham\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\hidr0\\source\\repos\\pxt-shoes-store\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\viewadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\viewadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\sanpham\\brogues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\sanpham\\brogues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\sanpham\\adidas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\sanpham\\adidas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\sanpham\\puma.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\sanpham\\puma.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\sanpham\\loafer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\sanpham\\loafer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\sanpham\\nike.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\sanpham\\nike.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\dcj2cxnl..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\models\\kieudang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:models\\kieudang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\models\\hangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:models\\hangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\models\\guimail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:models\\guimail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\detaildonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\detaildonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\user\\thongtin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\user\\thongtin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\migrations\\202407161254433_step1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:migrations\\202407161254433_step1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\giohang\\suagiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\giohang\\suagiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\views\\danhmuc\\danhmucpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:views\\danhmuc\\danhmucpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\kieudangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\kieudangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\scripts\\css\\styles.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|VinaShoeShop.csproj|solutionrelative:scripts\\css\\styles.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -309,23 +88,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 15,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -353,934 +132,263 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AboutStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AboutStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\AboutStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AboutStyles.css*",
-              "RelativeToolTip": "Scripts\\CSS\\AboutStyles.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T04:08:27.922Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AdminStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AdminStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\AdminStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AdminStyles.css",
-              "RelativeToolTip": "Scripts\\CSS\\AdminStyles.css",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAYwHcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T04:08:26.75Z",
+              "Title": "dbo.Donhangs [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Donhangs.sql",
+              "ToolTip": "dbo.Donhangs [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-28T07:46:25.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Donhangs\\Index.cshtml*",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Donhangs\\Index.cshtml*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T07:42:59.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs*",
+              "RelativeToolTip": "Controllers\\GioHangController.cs*",
+              "ViewState": "AgIAAP8BAAAAAAAAAAAgwBECAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:40:48.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Donhang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\Donhang.cs",
+              "RelativeDocumentMoniker": "Models\\Donhang.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\Donhang.cs",
+              "RelativeToolTip": "Models\\Donhang.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:34:12.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "send1.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send1.html",
+              "RelativeDocumentMoniker": "templatesendmail\\send1.html",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send1.html",
+              "RelativeToolTip": "templatesendmail\\send1.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-28T05:10:28.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ContactStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\ContactStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\ContactStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\ContactStyles.css*",
-              "RelativeToolTip": "Scripts\\CSS\\ContactStyles.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T04:08:20.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContactStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\ContactStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\ContactStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\ContactStyles.css",
-              "RelativeToolTip": "Scripts\\CSS\\ContactStyles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T02:33:03.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AdminStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\AdminStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AdminStyles.css",
-              "RelativeToolTip": "Scripts\\CSS\\AdminStyles.css",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAYwHcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T02:48:10.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AboutStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AboutStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\AboutStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\AboutStyles.css",
-              "RelativeToolTip": "Scripts\\CSS\\AboutStyles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T02:33:11.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\LoginStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\LoginStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\LoginStyles.css*",
-              "RelativeToolTip": "Scripts\\CSS\\LoginStyles.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T04:08:13.666Z",
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "Models\\VnPayLibrary.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\VnPayLibrary.cs",
+              "RelativeToolTip": "Models\\VnPayLibrary.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T05:10:37.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\LoginStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\LoginStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\LoginStyles.css",
-              "RelativeToolTip": "Scripts\\CSS\\LoginStyles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-24T07:11:03.976Z"
+              "Title": "password.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Assets\\dist\\password.html",
+              "RelativeDocumentMoniker": "Areas\\Assets\\dist\\password.html",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Assets\\dist\\password.html",
+              "RelativeToolTip": "Areas\\Assets\\dist\\password.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-28T05:10:14.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "send2.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send2.html",
+              "RelativeDocumentMoniker": "templatesendmail\\send2.html",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send2.html",
+              "RelativeToolTip": "templatesendmail\\send2.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-28T05:10:33.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\styles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\styles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\styles.css*",
-              "RelativeToolTip": "Scripts\\CSS\\styles.css*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T04:06:00.8Z",
+              "Title": "DatHangThanhCong.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\DatHangThanhCong.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\DatHangThanhCong.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\DatHangThanhCong.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\DatHangThanhCong.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T04:50:00.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\RegisterStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\RegisterStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\RegisterStyles.css*",
-              "RelativeToolTip": "Scripts\\CSS\\RegisterStyles.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T04:07:51.151Z",
+              "DocumentIndex": 11,
+              "Title": "NguoidungsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\NguoidungsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\NguoidungsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T04:21:21.566Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterStyles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\RegisterStyles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\RegisterStyles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\RegisterStyles.css",
-              "RelativeToolTip": "Scripts\\CSS\\RegisterStyles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-25T02:28:22.59Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "PhanQuyensController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\PhanQuyensController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\PhanQuyensController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAuwIYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T04:00:18.194Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-28T04:17:59.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAH8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:08:52.464Z",
+              "Title": "dbo.Nguoidungs [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Nguoidungs.sql",
+              "ToolTip": "dbo.Nguoidungs [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-28T04:17:02.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:40:37.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T04:21:27.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\styles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\styles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\styles.css",
-              "RelativeToolTip": "Scripts\\CSS\\styles.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-23T11:27:54.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ShoesBanner.jpg - Bitmap [555x260, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Banner\\ShoesBanner.jpg",
-              "RelativeDocumentMoniker": "Banner\\ShoesBanner.jpg",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Banner\\ShoesBanner.jpg - Bitmap [555x260, 24 bit, JPG]",
-              "RelativeToolTip": "Banner\\ShoesBanner.jpg - Bitmap [555x260, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-03-25T04:07:22.092Z",
-              "EditorCaption": " - Bitmap [555x260, 24 bit, JPG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NguoidungsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\NguoidungsController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\NguoidungsController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAuwKoAAAAAAAAAAAAAAA==",
+              "Title": "SanphamController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SanphamController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
+              "RelativeToolTip": "Controllers\\SanphamController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:54:16.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Delete.cshtml",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:53:44.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
-              "RelativeToolTip": "Controllers\\GioHangController.cs",
-              "ViewState": "AgIAALcBAAAAAAAAAAAAwAkCAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:45:24.862Z",
+              "WhenOpened": "2025-03-25T03:40:23.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Edit.cshtml",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAYwIIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:20:03.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Title": "HangsanxuatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:45:20.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SanphamController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SanphamController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
-              "RelativeToolTip": "Controllers\\SanphamController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:02:36.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SanphamController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SanphamController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
-              "RelativeToolTip": "Controllers\\SanphamController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwFcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:45:21.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T03:42:14.774Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
-              "RelativeToolTip": "Controllers\\GioHangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:02:31.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:01:33.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:39:43.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwGEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T02:47:14.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:20:26.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "HangsanxuatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDkAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:38:39.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "HangsanxuatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAwDkAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:03:26.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:38:35.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Kieudangs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Kieudangs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Kieudangs\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Kieudangs\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:19:43.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Kieudangs\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Kieudangs\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Kieudangs\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Kieudangs\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:19:42.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:19:56.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwGkAAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:03:28.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Index.cshtml",
-              "RelativeToolTip": "Views\\Sanpham\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:01:52.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Index.cshtml",
-              "RelativeToolTip": "Views\\Sanpham\\Index.cshtml",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAEEAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T17:40:24.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:19:37.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "xemchitiet.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\xemchitiet.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\xemchitiet.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\xemchitiet.cshtml",
-              "RelativeToolTip": "Views\\Sanpham\\xemchitiet.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T03:02:22.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAFsBAAAAAAAAAAAAAHABAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-25T03:03:33.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAFsBAAAAAAAAAAAAAHABAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-25T02:23:32.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T02:47:06.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwB8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-25T02:41:07.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Dangky.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Dangky.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Dangky.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Dangky.cshtml",
-              "RelativeToolTip": "Views\\User\\Dangky.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwEIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:01:38.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ViewAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\ViewAdmin.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\ViewAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\ViewAdmin.cshtml",
-              "RelativeToolTip": "Views\\User\\ViewAdmin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:36:05.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Dangnhap.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Dangnhap.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Dangnhap.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Dangnhap.cshtml",
-              "RelativeToolTip": "Views\\User\\Dangnhap.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T07:06:08.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:01:52.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-21T11:07:56.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Brogues.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Brogues.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Brogues.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Brogues.cshtml",
-              "RelativeToolTip": "Views\\Sanpham\\Brogues.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T18:20:55.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Loafer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Loafer.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Loafer.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Loafer.cshtml",
-              "RelativeToolTip": "Views\\Sanpham\\Loafer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T18:21:01.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Adidas.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Adidas.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Adidas.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Adidas.cshtml*",
-              "RelativeToolTip": "..\\..\\..\\..\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Adidas.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T17:44:52.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Puma.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Puma.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Puma.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Puma.cshtml",
-              "RelativeToolTip": "Views\\Sanpham\\Puma.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T18:21:03.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Nike.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Nike.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sanpham\\Nike.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Nike.cshtml*",
-              "RelativeToolTip": "..\\..\\..\\..\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\Sanpham\\Nike.cshtml*",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAHQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T17:51:39.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Kieudang.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Kieudang.cs",
-              "RelativeDocumentMoniker": "Models\\Kieudang.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Kieudang.cs",
-              "RelativeToolTip": "Models\\Kieudang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:42:17.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "dcj2cxnl..sql",
-              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\dcj2cxnl..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Admin\\AppData\\Local\\Temp\\dcj2cxnl..sql",
-              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\dcj2cxnl..sql",
-              "RelativeToolTip": "..\\..\\..\\..\\Admin\\AppData\\Local\\Temp\\dcj2cxnl..sql",
+              "Title": "DTBQuery.sql",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\DTBQuery.sql",
+              "RelativeDocumentMoniker": "DTBQuery.sql",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\DTBQuery.sql",
+              "RelativeToolTip": "DTBQuery.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-03-24T15:31:40.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Hangsanxuat.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Hangsanxuat.cs",
-              "RelativeDocumentMoniker": "Models\\Hangsanxuat.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Hangsanxuat.cs",
-              "RelativeToolTip": "Models\\Hangsanxuat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:05:25.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Nguoidung.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Nguoidung.cs",
-              "RelativeDocumentMoniker": "Models\\Nguoidung.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Nguoidung.cs",
-              "RelativeToolTip": "Models\\Nguoidung.cs",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:05:10.392Z"
+              "WhenOpened": "2025-03-25T03:40:50.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Sanpham.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Sanpham.cs",
-              "RelativeDocumentMoniker": "Models\\Sanpham.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Sanpham.cs",
-              "RelativeToolTip": "Models\\Sanpham.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:17:21.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Phanquyen.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Phanquyen.cs",
-              "RelativeDocumentMoniker": "Models\\Phanquyen.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\Phanquyen.cs",
-              "RelativeToolTip": "Models\\Phanquyen.cs",
+              "DocumentIndex": 16,
+              "Title": "ChitietdonhangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:05:08.272Z"
+              "WhenOpened": "2025-03-25T03:41:12.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "GuiMail.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\GuiMail.cs",
-              "RelativeDocumentMoniker": "Models\\GuiMail.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Models\\GuiMail.cs",
-              "RelativeToolTip": "Models\\GuiMail.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T15:04:47.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\packages.config",
-              "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\packages.config",
-              "RelativeToolTip": "packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-21T11:07:54.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 18,
               "Title": "DanhmucController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
               "RelativeDocumentMoniker": "Controllers\\DanhmucController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
               "RelativeToolTip": "Controllers\\DanhmucController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T02:59:04.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T11:31:56.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\styles.css",
-              "RelativeDocumentMoniker": "Scripts\\CSS\\styles.css",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Scripts\\CSS\\styles.css",
-              "RelativeToolTip": "Scripts\\CSS\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-23T11:26:35.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Edit.cshtml",
-              "RelativeToolTip": "Views\\User\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:39:06.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T13:11:43.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Donhang.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Donhang.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Donhang.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Donhang.cshtml",
-              "RelativeToolTip": "Views\\User\\Donhang.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:39:07.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Thongtin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Thongtin.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Thongtin.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Thongtin.cshtml",
-              "RelativeToolTip": "Views\\User\\Thongtin.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:39:05.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Detaildonhang.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Detaildonhang.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Detaildonhang.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\User\\Detaildonhang.cshtml",
-              "RelativeToolTip": "Views\\User\\Detaildonhang.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:29:15.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "202407161254433_step1.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Migrations\\202407161254433_step1.cs",
-              "RelativeDocumentMoniker": "Migrations\\202407161254433_step1.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Migrations\\202407161254433_step1.cs",
-              "RelativeToolTip": "Migrations\\202407161254433_step1.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAQwFYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T02:54:25.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:02:38.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "SuaGioHang.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\SuaGioHang.cshtml",
-              "RelativeDocumentMoniker": "Views\\GioHang\\SuaGioHang.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\SuaGioHang.cshtml",
-              "RelativeToolTip": "Views\\GioHang\\SuaGioHang.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:01:58.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "GioHang.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\GioHang.cshtml",
-              "RelativeDocumentMoniker": "Views\\GioHang\\GioHang.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\GioHang.cshtml",
-              "RelativeToolTip": "Views\\GioHang\\GioHang.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:01:55.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "DanhmucPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Danhmuc\\DanhmucPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Danhmuc\\DanhmucPartial.cshtml",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Views\\Danhmuc\\DanhmucPartial.cshtml",
-              "RelativeToolTip": "Views\\Danhmuc\\DanhmucPartial.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:02:25.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "KieudangsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\KieudangsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\KieudangsController.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\KieudangsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\KieudangsController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:05:22.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Hidr0\\source\\repos\\PXT-Shoes-Store\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T02:54:35.026Z"
+              "WhenOpened": "2025-03-25T03:39:19.17Z"
             }
           ]
         }

@@ -498,6 +498,7 @@
     <Content Include="Views\User\Detaildonhang.cshtml" />
     <Content Include="Views\GioHang\VnpayReturn.cshtml" />
     <Content Include="Views\GioHang\DatHangThanhCong.cshtml" />
+    <Content Include="Views\GioHang\DatHangThatBai.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

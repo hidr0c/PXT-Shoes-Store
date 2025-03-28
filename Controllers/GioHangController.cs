@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Ajax.Utilities;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -229,8 +230,13 @@ namespace VinaShoseShop.Controllers
 			return View();
 		}
 
-		// Chức năng đặt hàng
-		[HttpPost]
+		public ActionResult DatHangThatBai()
+        {
+            return View();
+        }
+
+        // Chức năng đặt hàng
+        [HttpPost]
 		public ActionResult DatHang()
 		{
 			if (Session["use"] == null || string.IsNullOrEmpty(Session["use"].ToString()))
@@ -320,19 +326,12 @@ namespace VinaShoseShop.Controllers
             });
 
 			t.Start();
-
-			// Thêm thông báo đặt hàng thành công
-			TempData["SuccessMessage"] = "Đặt hàng thành công!";
-
-			// Xóa giỏ hàng sau khi đặt hàng thành công
-			Session["GioHang"] = null;
-
 			return View("DatHangThanhCong");
 		}
 
 
 		[HttpPost]
-		public ActionResult DatHangOnline()
+		public ActionResult DatHangVNPay()
 		{
 			if (Session["use"] == null || string.IsNullOrEmpty(Session["use"].ToString()))
 			{
@@ -422,14 +421,14 @@ namespace VinaShoseShop.Controllers
 
 			t.Start();
 
-
+			var url = VnpayPayment(ddh.Madon);
 			// Thêm thông báo đặt hàng thành công
 			TempData["SuccessMessage"] = "Đặt hàng thành công!";
 
 			// Xóa giỏ hàng sau khi đặt hàng thành công
 			Session["GioHang"] = null;
 
-			var url = VnpayPayment(ddh.Madon);
+
 
 			return Redirect(url);  
 		}
@@ -518,28 +517,42 @@ namespace VinaShoseShop.Controllers
 				{
 					if (vnp_ResponseCode == "00" && vnp_TransactionStatus == "00")
 					{
-						var itemOrder = db.Donhangs.FirstOrDefault();
-						if (itemOrder != null)
+                        var itemOrder = db.Donhangs.FirstOrDefault(x => x.Madon.ToString() == orderCode);
+                        if (itemOrder != null)
 						{
 							itemOrder.Tinhtrang = 2;
 							db.Donhangs.Attach(itemOrder);
 							db.Entry(itemOrder).State = System.Data.Entity.EntityState.Modified;
 							db.SaveChanges();
 						}
+						else 
+						{ 
+							ViewBag.InnerText = "Giỏ hàng không có sản phẩm, không thể thực hiện thanh toán";
+							return RedirectToAction("DatHangThatBai");
+						}
 						//Thanh toan thanh cong
 						ViewBag.InnerText = "Giao dịch được thực hiện thành công. Cảm ơn quý khách đã sử dụng dịch vụ";
-						//log.InfoFormat("Thanh toan thanh cong, OrderId={0}, VNPAY TranId={1}", orderId, vnpayTranId);
-					}
+                        ViewBag.ThanhToanThanhCong = "Số tiền thanh toán (VND):" + vnp_Amount.ToString();
+                        Session["GioHang"] = null;
+                        return RedirectToAction("DatHangThanhCong");
+                        //log.InfoFormat("Thanh toan thanh cong, OrderId={0}, VNPAY TranId={1}", orderId, vnpayTranId);
+						
+                    }
 					else
 					{
-						//Thanh toan khong thanh cong. Ma loi: vnp_ResponseCode
-						ViewBag.InnerText = "Giao dịch bị hủy.Có lỗi xảy ra trong quá trình xử lý.Mã lỗi: " + vnp_ResponseCode;
-						//log.InfoFormat("Thanh toan loi, OrderId={0}, VNPAY TranId={1},ResponseCode={2}", orderId, vnpayTranId, vnp_ResponseCode);
-					}
+                        var itemOrder = db.Donhangs.FirstOrDefault(x => x.Madon.ToString() == orderCode);
+                        itemOrder.Tinhtrang = 4;
+                        db.Donhangs.Attach(itemOrder);
+                        db.Entry(itemOrder).State = System.Data.Entity.EntityState.Modified;
+                        db.SaveChanges();
+                        //Thanh toan khong thanh cong. Ma loi: vnp_ResponseCode
+                        ViewBag.InnerText = "Giao dịch bị hủy.Có lỗi xảy ra trong quá trình xử lý.Mã lỗi: " + vnp_ResponseCode;
+                        return RedirectToAction("DatHangThatBai");
+                        //log.InfoFormat("Thanh toan loi, OrderId={0}, VNPAY TranId={1},ResponseCode={2}", orderId, vnpayTranId, vnp_ResponseCode);
+                    }
 					//displayTmnCode.InnerText = "Mã Website (Terminal ID):" + TerminalID;
 					//displayTxnRef.InnerText = "Mã giao dịch thanh toán:" + orderId.ToString();
 					//displayVnpayTranNo.InnerText = "Mã giao dịch tại VNPAY:" + vnpayTranId.ToString();
-					ViewBag.ThanhToanThanhCong = "Số tiền thanh toán (VND):" + vnp_Amount.ToString();
 					//displayBankCode.InnerText = "Ngân hàng thanh toán:" + bankCode;
 				}
 			}
