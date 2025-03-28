@@ -1,84 +1,92 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\admin\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\models\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\models\\paypalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\paypalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\areas\\admin\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\dell\\downloads\\new folder\\pxt-shoes-store\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Donhangs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\models\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:models\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\templatesendmail\\send2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\templatesendmail\\send2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:templatesendmail\\send2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\templatesendmail\\send1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:templatesendmail\\send1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\assets\\dist\\password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\areas\\assets\\dist\\password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\assets\\dist\\password.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\views\\giohang\\dathangthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\views\\giohang\\dathangthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:views\\giohang\\dathangthanhcong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Nguoidungs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|c:\\users\\admin\\source\\repos\\pxt-shoes-store\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\hangsanxuatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\areas\\admin\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\areas\\admin\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:areas\\admin\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|PXTShoeShop.csproj|solutionrelative:controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTBQuery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,27 +96,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Controllers\\GioHangController.cs",
+              "ViewState": "AgIAADICAAAAAAAAAAAqwDcCAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:40:48.808Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -132,59 +158,71 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Donhangs [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Donhangs.sql",
-              "ToolTip": "dbo.Donhangs [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-28T07:46:25.651Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-28T04:17:59.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaypalConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Models\\PaypalConfiguration.cs",
+              "RelativeDocumentMoniker": "Models\\PaypalConfiguration.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Models\\PaypalConfiguration.cs",
+              "RelativeToolTip": "Models\\PaypalConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T09:04:23.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\GioHang.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\GioHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T09:02:17.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Donhangs\\Index.cshtml*",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Donhangs\\Index.cshtml*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFgAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Donhangs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T07:42:59.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\GioHangController.cs*",
-              "RelativeToolTip": "Controllers\\GioHangController.cs*",
-              "ViewState": "AgIAAP8BAAAAAAAAAAAgwBECAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:40:48.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Donhang.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\Donhang.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Models\\Donhang.cs",
               "RelativeDocumentMoniker": "Models\\Donhang.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\Donhang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Models\\Donhang.cs",
               "RelativeToolTip": "Models\\Donhang.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,37 +231,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "send1.html",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send1.html",
-              "RelativeDocumentMoniker": "templatesendmail\\send1.html",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send1.html",
-              "RelativeToolTip": "templatesendmail\\send1.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-28T05:10:28.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "VnPayLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\VnPayLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Models\\VnPayLibrary.cs",
               "RelativeDocumentMoniker": "Models\\VnPayLibrary.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Models\\VnPayLibrary.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Models\\VnPayLibrary.cs",
               "RelativeToolTip": "Models\\VnPayLibrary.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T05:10:37.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "password.html",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Assets\\dist\\password.html",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Assets\\dist\\password.html",
               "RelativeDocumentMoniker": "Areas\\Assets\\dist\\password.html",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Assets\\dist\\password.html",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Assets\\dist\\password.html",
               "RelativeToolTip": "Areas\\Assets\\dist\\password.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -232,11 +257,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "dbo.Donhangs.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Donhangs.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Donhangs.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-28T07:46:25.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "send2.html",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send2.html",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\templatesendmail\\send2.html",
               "RelativeDocumentMoniker": "templatesendmail\\send2.html",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\templatesendmail\\send2.html",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\templatesendmail\\send2.html",
               "RelativeToolTip": "templatesendmail\\send2.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -245,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DatHangThanhCong.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\DatHangThanhCong.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Views\\GioHang\\DatHangThanhCong.cshtml",
               "RelativeDocumentMoniker": "Views\\GioHang\\DatHangThanhCong.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Views\\GioHang\\DatHangThanhCong.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Views\\GioHang\\DatHangThanhCong.cshtml",
               "RelativeToolTip": "Views\\GioHang\\DatHangThanhCong.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -258,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "NguoidungsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\NguoidungsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\NguoidungsController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,33 +306,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-03-28T04:17:59.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "dbo.Nguoidungs [Data]",
+              "Title": "dbo.Nguoidungs.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Nguoidungs.sql",
-              "ToolTip": "dbo.Nguoidungs [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_6712H2GD/WebsiteGiay/True/SqlTable/dbo.Nguoidungs.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-28T04:17:02.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T04:17:02.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -320,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SanphamController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
               "RelativeDocumentMoniker": "Controllers\\SanphamController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\SanphamController.cs",
               "RelativeToolTip": "Controllers\\SanphamController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAArwCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -333,62 +353,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HangsanxuatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\HangsanxuatsController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:42:14.774Z"
+              "WhenOpened": "2025-03-25T03:42:14.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DTBQuery.sql",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\DTBQuery.sql",
+              "DocumentIndex": 20,
+              "Title": "DTBQuery.sql ",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\DTBQuery.sql",
               "RelativeDocumentMoniker": "DTBQuery.sql",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\DTBQuery.sql",
-              "RelativeToolTip": "DTBQuery.sql",
+              "ToolTip": "DTBQuery.sql ",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-24T15:31:40.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:40:50.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ChitietdonhangsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:41:12.918Z"
+              "WhenOpened": "2025-03-24T15:31:40.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:40:50.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChitietdonhangsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ChitietdonhangsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:41:12.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DanhmucController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
               "RelativeDocumentMoniker": "Controllers\\DanhmucController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\New folder\\PXT-Shoes-Store\\Controllers\\DanhmucController.cs",
               "RelativeToolTip": "Controllers\\DanhmucController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T03:39:19.17Z"
+              "WhenOpened": "2025-03-25T03:39:19.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
