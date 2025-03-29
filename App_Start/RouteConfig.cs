@@ -13,7 +13,7 @@ namespace VinaShoseShop
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
-                namespaces: new[] { "VinaShoseShop.Controllers" }  // Thêm namespace của controllers vào đây
+                namespaces: new[] { "VinaShoseShop.Controllers" }
             );
         }
     }
