@@ -14,38 +14,28 @@
 <!-- Featured Products Section -->
 <section class="featured-products">
     <div class="container">
-        <h2 class="section-title">Sản Phẩm Nổi Bật</h2>
+        <h2 class="section-title">Sản Phẩm Mới</h2>
         <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="product-card">
-                    <img src="~/HinhanhSP/spnbm1.png" class="card-img-top" alt="Giày Sneaker Trắng">
-                    <div class="card-body">
-                        <h5 class="card-title">Giày Sneaker Trắng</h5>
-                        <p class="card-text">1.200.000 VNĐ</p>
-                        <a href="#" class="btn btn-outline-primary">Xem Chi Tiết</a>
+            @if (ViewBag.NewestProducts != null)
+            {
+                foreach (var product in ViewBag.NewestProducts)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <img src="@Url.Content("~/HinhanhSP/" + product.Anhbia)" class="card-img-top" alt="@product.Tensp">
+                            <div class="card-body">
+                                <h5 class="card-title">@product.Tensp</h5>
+                                <p class="card-text">@String.Format("{0:0,0}", product.Giatien) VNĐ</p>
+                                <a href="@Url.Action("Details", "SanPham", new { id = product.Masp })" class="btn btn-outline-primary">Xem Chi Tiết</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="product-card">
-                    <img src="~/HinhanhSP/spnbm2.png" class="card-img-top" alt="Giày Thể Thao Đen">
-                    <div class="card-body">
-                        <h5 class="card-title">Giày Thể Thao Đen</h5>
-                        <p class="card-text">1.500.000 VNĐ</p>
-                        <a href="#" class="btn btn-outline-primary">Xem Chi Tiết</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="product-card">
-                    <img src="~/HinhanhSP/spnbm3.png" class="card-img-top" alt="Giày Chạy Bộ Xanh">
-                    <div class="card-body">
-                        <h5 class="card-title">Giày Chạy Bộ Xanh</h5>
-                        <p class="card-text">1.800.000 VNĐ</p>
-                        <a href="#" class="btn btn-outline-primary">Xem Chi Tiết</a>
-                    </div>
-                </div>
-            </div>
+                }
+            }
+            else
+            {
+                <p>Không có sản phẩm mới nào để hiển thị.</p>
+            }
         </div>
     </div>
 </section>
