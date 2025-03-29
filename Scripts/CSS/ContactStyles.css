@@ -2,10 +2,10 @@
 
 /* Contact Section */
 .contact-section {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /*url('/Banner/Salt.jpg')*/;
+
     background-size: cover;
     background-position: center 70%;
-    background-color: #333; /* Fallback color */
+    background-color: #FFFFFF;
     min-height: 100vh; /* Ensure the section takes up the full viewport height */
     display: flex;
     align-items: center; /* Center the form vertically */

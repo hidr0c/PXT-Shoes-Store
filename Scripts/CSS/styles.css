@@ -37,7 +37,7 @@
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /*url('/Banner/ShoesBanner.jpg')*/;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/Banner/ShoesBanner.jpg');
     background-size: cover;
     background-position: center 15%; /* Move the image down by setting the vertical position to 70% */
     background-color: #333; /* Fallback color if the image fails to load */
