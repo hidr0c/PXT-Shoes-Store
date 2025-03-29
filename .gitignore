@@ -373,4 +373,3 @@ Web.config
 bin/
 obj/
 *.cache
-packages.config
