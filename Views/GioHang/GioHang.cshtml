@@ -2,82 +2,152 @@
 @model List<GioHang>
 
 @{
-    ViewBag.Title = "GioHang";
+    ViewBag.Title = "Giỏ Hàng";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="cart-container">
-    <h2 class="cart-title">GIỎ HÀNG <i class="fa fa-shopping-cart"></i></h2>
+    <h2 class="cart-title">Giỏ Hàng <i class="fa fa-shopping-cart"></i></h2>
 
-    <table class="cart-table">
-        <thead>
-            <tr>
-                <th>Sản phẩm</th>
-                <th>Mã</th>
-                <th>Tên</th>
-                <th>Giá</th>
-                <th>Size</th>
-                <th>Số lượng</th>
-                <th>Tổng</th>
-                <th>Thao tác</th>
-            </tr>
-        </thead>
-        <tbody>
-            @{
-                decimal tongTien = 0;
-            }
-            @foreach (var item in Model)
-            {
-                <tr class="cart-item">
-                    <td><img src="@Url.Content("~/HinhanhSP/" + item.sAnhBia)" alt="@item.sTensp" class="cart-image" /></td>
-                    <td>@item.iMasp</td>
-                    <td>@item.sTensp</td>
-                    <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
-                    @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaSP = item.iMasp, @size = item.Size }, FormMethod.Post))
-                    {
-                        <td>
-                            <select name="txtSize" class="form-control size-select">
-                                @for (int size = 36; size <= 45; size++)
-                                {
-                                    <option value="@size.ToString()" @(item.Size == size.ToString() ? "selected" : "")>Size @size</option>
-                                }
-                            </select>
-                        </td>
-                        <td>
-                            @Html.TextBox("txtSoLuong", item.iSoLuong, new { @class = "form-control quantity-input", @type = "number", @min = "1" })
-                        </td>
-                        <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
-                        <td>
-                            <button type="submit" class="btn btn-update">Cập nhật</button>
-                            <a href="/GioHang/XoaGioHang?iMaSP=@item.iMasp" class="btn btn-delete" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng không?');">Xóa</a>
-                        </td>
-                    }
+    @if (Model != null && Model.Any())
+    {
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Ảnh Bìa</th>
+                    <th>Mã SP</th>
+                    <th>Tên Sản Phẩm</th>
+                    <th>Size</th>
+                    <th>Số Lượng</th>
+                    <th>Đơn Giá</th>
+                    <th>Thành Tiền</th>
+                    <th>Thao Tác</th>
                 </tr>
-                tongTien += Convert.ToDecimal(item.ThanhTien);
-            }
+            </thead>
+            <tbody>
+                @{
+                    decimal tongTienHang = 0;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr class="cart-item">
+                        <td><img src="@Url.Content("~/HinhanhSP/" + item.sAnhBia)" alt="@item.sTensp" class="cart-image" /></td>
+                        <td>@item.iMasp</td>
+                        <td>@item.sTensp</td>
+                        @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaSP = item.iMasp, @size = item.Size }, FormMethod.Post))
+                        {
+                            <td>
+                                <select name="txtSize" class="form-control size-select">
+                                    @for (int size = 35; size <= 46; size++)
+                                    {
+                                        <option value="@size.ToString()" @(item.Size == size.ToString() ? "selected" : "")>Size @size</option>
+                                    }
+                                </select>
+                            </td>
+                            <td>
+                                @Html.TextBox("txtSoLuong", item.iSoLuong, new { @class = "form-control quantity-input", @type = "number", @min = "1" })
+                            </td>
+                            <td class="price-column">@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
+                            <td class="price-column">@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+                            <td>
+                                <button type="submit" class="btn btn-update">Cập nhật</button>
+                                <a href="/GioHang/XoaGioHang?iMaSP=@item.iMasp" class="btn btn-delete" onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng không?');">Xóa</a>
+                            </td>
+                        }
+                    </tr>
+                    tongTienHang += Convert.ToDecimal(item.ThanhTien);
+                }
+            </tbody>
+        </table>
 
-            <tr class="total-row">
-                <td colspan="8">
-                    <strong>Tổng tiền:</strong> @String.Format("{0:0,0}", tongTien) VNĐ
-                </td>
-            </tr>
-        </tbody>
-    </table>
+        <!-- Coupon Input Form (Moved outside the table) -->
+        <div class="coupon-and-summary-container">
+            <div class="coupon-section">
+                @using (Html.BeginForm("ApplyCoupon", "GioHang", FormMethod.Post, new { @class = "coupon-form" }))
+                {
+                    <div class="coupon-input-group">
+                        <input type="text" name="couponCode" class="coupon-input" placeholder="Nhập mã giảm giá" value="@ViewBag.AppliedCoupon" />
+                        <button type="submit" class="btn btn-apply-coupon">Áp dụng</button>
+                    </div>
+                    if (!string.IsNullOrEmpty(ViewBag.CouponWarning))
+                    {
+                        <p class="coupon-warning">@ViewBag.CouponWarning</p>
+                    }
+                }
+            </div>
 
-    <div class="cart-actions">
-        <div class="checkout-buttons">
-            @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @class = "checkout-form" }))
-            {
-                <button type="submit" class="btn btn-checkout btn-cod">Đặt hàng COD</button>
+            <!-- Subtotal, Discount, Tax, Shipping, and Final Total -->
+            @{
+                // Get the applied coupon and calculate the discount
+                string appliedCoupon = ViewBag.AppliedCoupon ?? "";
+                decimal discountRate = 0m;
+                if (!string.IsNullOrEmpty(appliedCoupon))
+                {
+                    if (appliedCoupon == "SALE10")
+                    {
+                        discountRate = 0.10m;
+                    }
+                    else if (appliedCoupon == "SALE20")
+                    {
+                        discountRate = 0.20m;
+                    }
+                    else if (appliedCoupon == "SALE50")
+                    {
+                        discountRate = 0.50m;
+                    }
+                }
+
+                decimal discountAmount = tongTienHang * discountRate;
+                decimal discountedSubtotal = tongTienHang - discountAmount;
+                decimal thueVAT = discountedSubtotal * 0.10m;
+                decimal finalTotal = discountedSubtotal + thueVAT;
             }
-            <form action="/GioHang/DatHangOnline" method="post" class="checkout-form">
-                <button type="submit" class="btn btn-checkout btn-vnpay">Đặt hàng Vnpay</button>
-            </form>
-            <form action="/GioHang/PaymentWithPaypal" method="post" class="checkout-form">
-                <button type="submit" class="btn btn-checkout btn-paypal">Đặt hàng Paypal</button>
-            </form>
+            <div class="summary-section">
+                <div class="summary-item">
+                    <span>Tổng tiền hàng:</span>
+                    <span>@String.Format("{0:0,0}", tongTienHang) VNĐ</span>
+                </div>
+                @if (discountAmount > 0)
+                {
+                    <div class="summary-item">
+                        <span>Giảm giá (@(discountRate * 100)%):</span>
+                        <span class="discount-amount">-@String.Format("{0:0,0}", discountAmount) VNĐ</span>
+                    </div>
+                }
+                <div class="summary-item">
+                    <span>Thuế VAT (10%):</span>
+                    <span>@String.Format("{0:0,0}", thueVAT) VNĐ</span>
+                </div>
+                <div class="summary-item">
+                    <span>Phí vận chuyển:</span>
+                    <span>0đ</span>
+                </div>
+                <div class="summary-item final-total">
+                    <span><strong>Tổng thanh toán:</strong></span>
+                    <span><strong>@String.Format("{0:0,0}", finalTotal) VNĐ</strong></span>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div class="cart-actions">
+            <div class="checkout-buttons">
+                @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @class = "checkout-form" }))
+                {
+                    <button type="submit" class="btn btn-checkout btn-cod">Đặt hàng COD</button>
+                }
+                <form action="/GioHang/DatHangVNPay" method="post" class="checkout-form">
+                    <button type="submit" class="btn btn-checkout btn-vnpay">Đặt hàng Vnpay</button>
+                </form>
+                <form action="/GioHang/PaymentWithPaypal" method="post" class="checkout-form">
+                    <button type="submit" class,="btn btn-checkout btn-paypal">Đặt hàng Paypal</button>
+                </form>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="empty-cart-message">Giỏ hàng của bạn hiện đang trống.</p>
+    }
 </div>
 
 <style type="text/css">
@@ -89,17 +159,26 @@
         background-color: #ffffff;
         border-radius: 12px;
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
     }
 
     /* Title styling */
     .cart-title {
         font-size: 2.2rem;
         font-weight: 700;
-        color: #2c3e50;
+        color: #6B48FF; /* Primary color */
         text-align: center;
         margin-bottom: 30px;
         text-transform: uppercase;
         letter-spacing: 1.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cart-title i {
+        font-size: 1.8rem;
     }
 
     /* Table styling */
@@ -111,24 +190,29 @@
         overflow: hidden;
     }
 
-        .cart-table th, .cart-table td {
-            padding: 15px;
-            text-align: center;
-            font-size: 1rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
+    .cart-table th, .cart-table td {
+        padding: 15px;
+        text-align: center;
+        font-size: 1rem;
+        border-bottom: 1px solid #e0e0e0;
+    }
 
-        .cart-table th {
-            background-color: #34495e;
-            color: #fff;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
+    .cart-table th {
+        background-color: #6B48FF; /* Primary color */
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
 
-        .cart-table td {
-            color: #333;
-        }
+    .cart-table td {
+        color: #333;
+    }
+
+    /* Right-align price columns */
+    .price-column {
+        text-align: right;
+    }
 
     /* Image styling */
     .cart-image {
@@ -141,32 +225,128 @@
 
     /* Size and Quantity inputs */
     .size-select, .quantity-input {
-        width: 80px;
-        padding: 5px;
+        width: 100px; /* Consistent width for alignment */
+        padding: 8px;
         font-size: 0.9rem;
         border-radius: 5px;
         border: 1px solid #ccc;
         background-color: #f9f9f9;
         transition: border-color 0.3s ease;
-    }
-
-        .size-select:focus, .quantity-input:focus {
-            border-color: #3498db;
-            outline: none;
-        }
-
-    .quantity-input {
-        width: 60px;
         text-align: center;
     }
 
-    /* Total row styling */
-    .total-row {
-        background-color: #ecf0f1;
-        font-size: 1.2rem;
-        font-weight: 600;
+    .size-select:focus, .quantity-input:focus {
+        border-color: #6B48FF; /* Primary color */
+        outline: none;
+    }
+
+    .quantity-input {
+        width: 80px; /* Slightly smaller for quantity */
+        text-align: center;
+    }
+
+    /* Coupon and Summary container */
+    .coupon-and-summary-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    /* Coupon section styling */
+    .coupon-section {
+        flex: 1;
+        text-align: left;
+    }
+
+    .coupon-form {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .coupon-input-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .coupon-input {
+        width: 200px;
+        padding: 8px;
+        font-size: 0.9rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        transition: border-color 0.3s ease;
+    }
+
+    .coupon-input:focus {
+        border-color: #6B48FF;
+        outline: none;
+    }
+
+    .btn-apply-coupon {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        background-color: #6B48FF; /* Primary color */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+    }
+
+    .btn-apply-coupon:hover {
+        background-color: #5a3de6;
+        transform: translateY(-1px);
+    }
+
+    .coupon-warning {
         color: #e74c3c;
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    /* Summary section styling */
+    .summary-section {
+        flex: 1;
         text-align: right;
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .summary-item {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        color: #333;
+    }
+
+    .summary-item span:first-child {
+        font-weight: 500;
+    }
+
+    .summary-item span:last-child {
+        min-width: 150px;
+        text-align: right;
+    }
+
+    .discount-amount {
+        color: #28a745; /* Green for discount */
+    }
+
+    .final-total {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #e0e0e0;
+        font-size: 1.3rem;
+        color: #6B48FF; /* Primary color */
     }
 
     /* Action buttons (Update, Delete) */
@@ -186,10 +366,10 @@
         color: #fff;
     }
 
-        .btn-update:hover {
-            background-color: #e67e22;
-            transform: translateY(-1px);
-        }
+    .btn-update:hover {
+        background-color: #e67e22;
+        transform: translateY(-1px);
+    }
 
     .btn-delete {
         background-color: #e74c3c;
@@ -197,10 +377,10 @@
         text-decoration: none;
     }
 
-        .btn-delete:hover {
-            background-color: #c0392b;
-            transform: translateY(-1px);
-        }
+    .btn-delete:hover {
+        background-color: #c0392b;
+        transform: translateY(-1px);
+    }
 
     /* Cart actions (Checkout buttons) */
     .cart-actions {
@@ -221,8 +401,14 @@
     }
 
     .btn-checkout {
-        padding: 8px 16px;
-        font-size: 0.9rem;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        text-transform: uppercase;
     }
 
     .btn-cod {
@@ -230,34 +416,122 @@
         color: #fff;
     }
 
-        .btn-cod:hover {
-            background-color: #c0392b;
-            transform: translateY(-1px);
-        }
+    .btn-cod:hover {
+        background-color: #c0392b;
+        transform: translateY(-1px);
+    }
 
     .btn-vnpay {
-        background-color: #3498db;
+        background-color: #6B48FF; /* Primary color */
         color: #fff;
     }
 
-        .btn-vnpay:hover {
-            background-color: #2980b9;
-            transform: translateY(-1px);
-        }
+    .btn-vnpay:hover {
+        background-color: #5a3de6;
+        transform: translateY(-1px);
+    }
 
     .btn-paypal {
         background-color: #f1c40f;
         color: #333;
     }
 
-        .btn-paypal:hover {
-            background-color: #d4ac0d;
-            transform: translateY(-1px);
-        }
+    .btn-paypal:hover {
+        background-color: #d4ac0d;
+        transform: translateY(-1px);
+    }
 
     /* Hover effect for table rows */
     .cart-item:hover {
         background-color: #f5f5f5;
         transition: background-color 0.3s ease;
+    }
+
+    /* Empty cart message */
+    .empty-cart-message {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #666;
+        padding: 20px;
+    }
+
+    /* Responsive design */
+
+
+        .cart-table th, .cart-table td {
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+
+        .cart-image {
+            width: 80px;
+            height: 80px;
+        }
+
+        .cart-title {
+            font-size: 1.5rem;
+        }
+
+        .size-select, .quantity-input {
+            width: 80px;
+        }
+
+        .quantity-input {
+            width: 60px;
+        }
+
+        .coupon-and-summary-container {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .coupon-section, .summary-section {
+            text-align: center;
+            width: 100%;
+        }
+
+        .coupon-input {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .coupon-form {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .coupon-input-group {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .btn-apply-coupon {
+            width: 100%;
+            max-width: 200px;
+            margin-top: 10px;
+        }
+
+        .summary-item {
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        .summary-item span:last-child {
+            text-align: center;
+        }
+
+        .final-total {
+            font-size: 1.2rem;
+        }
+
+        .checkout-buttons {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn-checkout {
+            width: 100%;
+            padding: 12px;
+        }
     }
 </style>
