@@ -1,0 +1,109 @@
+﻿@section styles {
+    <link rel="stylesheet" href="~/Scripts/CSS/Styles.css" />
+}
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <h1 class="hero-title">Khám Phá Bộ Sưu Tập Giày Mới Nhất</h1>
+        <p class="hero-subtitle">Tìm kiếm phong cách hoàn hảo cho bạn tại PXT Shoes Shop</p>
+        <a href="@Url.Action("Index", "Sanpham")" class="btn btn-primary hero-btn">Mua Sắm Ngay</a>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="featured-products">
+    <div class="container">
+        <h2 class="section-title">Sản Phẩm Mới</h2>
+        <div class="row">
+            @if (ViewBag.NewestProducts != null)
+            {
+                foreach (var product in ViewBag.NewestProducts)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <img src="@Url.Content("~/HinhanhSP/" + product.Anhbia)" class="card-img-top" alt="@product.Tensp">
+                            <div class="card-body">
+                                <h5 class="card-title">@product.Tensp</h5>
+                                <p class="card-text">@String.Format("{0:0,0}", product.Giatien) VNĐ</p>
+                                <a href="@Url.Action("Details", "SanPham", new { id = product.Masp })" class="btn btn-outline-primary">Xem Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Không có sản phẩm mới nào để hiển thị.</p>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Video Section -->
+<section class="video-section">
+    <div class="container">
+        <h2 class="section-title">Our Channel</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/Cur3b5NX_nk?si=FKfT5iVXB5tQg09i" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/864B4rzoPog?si=IoJ6vIej7SPwE4ss" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- News Section -->
+<section class="news-section">
+    <div class="container">
+        <h2 class="section-title">Tin Tức & Sự Kiện</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="news-card">
+                    <img src="~/HinhanhSP/tin 2.jpg" alt="Phối Đồ Với Sneakers">
+                    <div class="news-content">
+                        <h4 class="news-title">Phối Đồ Với Sneakers</h4>
+                        <p class="news-excerpt">Giày Sneakers là một trong những món đồ không thể thiếu trong tủ đồ của bất kỳ ai...</p>
+                        <a href="https://giayrep.vn/cach-phoi-do-voi-giay-eqt-cho-nam-va-nu-2022/" target="_blank" class="news-link">Đọc Thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="news-card">
+                    <img src="~/HinhanhSP/tin 3.jpg" alt="Giày Thể Thao Cao Gót Gây Sốt">
+                    <div class="news-content">
+                        <h4 class="news-title">Giày Thể Thao Cao Gót Gây Sốt</h4>
+                        <p class="news-excerpt">Thiết kế pha trộn giày thể thao với giày cao gót công sở của Nike và Martine Rose...</p>
+                        <a href="https://vnexpress.net/giay-the-thao-cao-got-gay-sot-4668369.html" target="_blank" class="news-link">Đọc Thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="news-card">
+                    <img src="~/HinhanhSP/tin 4.jpg" alt="5 Kiểu Giày Thể Thao Được Ưa Chuộng Thu Đông 2023">
+                    <div class="news-content">
+                        <h4 class="news-title">5 Kiểu Giày Thể Thao Được Ưa Chuộng Thu Đông 2023</h4>
+                        <p class="news-excerpt">Giày chạy bộ, giày đá bóng, giày bóng rổ là xu hướng hot mùa lạnh cuối năm nay...</p>
+                        <a href="https://vnexpress.net/5-kieu-giay-the-thao-duoc-ua-chuong-thu-dong-2023-4660452.html" target="_blank" class="news-link">Đọc Thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="news-card">
+                    <img src="~/HinhanhSP/tin 5.jpg" alt="Thời Trang Thể Thao Cho Mùa Hè">
+                    <div class="news-content">
+                        <h4 class="news-title">Thời Trang Thể Thao Cho Mùa Hè</h4>
+                        <p class="news-excerpt">Các thương hiệu nổi tiếng giới thiệu bộ sưu tập thời trang thể thao mùa hè...</p>
+                        <a href="https://vnexpress.net/giay-the-thao-adidas-giam-den-60-hom-nay-4411025.html" target="_blank" class="news-link">Đọc Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

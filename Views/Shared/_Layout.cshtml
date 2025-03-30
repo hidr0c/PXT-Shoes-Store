@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - PXT Shoes Shop</title>
+
+    <!-- Styles -->
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/Style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    @RenderSection("styles", required: false)
+
+    @using VinaShoseShop.Models
+
+    <style>
+        :root {
+            --primary-color: #6B48FF; /* Vibrant Purple */
+            --secondary-color: #20C997; /* Teal */
+            --background-color: #F8F9FA; /* Light Gray */
+            --text-color: #333333; /* Dark Gray */
+            --accent-color: #FF6B6B; /* Coral */
+        }
+
+        body {
+            background-color: var(--background-color);
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: var(--text-color);
+        }
+
+        /* Updated Header Styles */
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+            .header .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                height: 60px; /* Fixed height for consistent alignment */
+            }
+
+            .header .navbar-brand {
+                color: var(--primary-color);
+                font-size: 2.2rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+                display: flex;
+                align-items: center;
+            }
+
+            .header .navbar-nav {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                height: 100%; /* Ensure nav takes full height of container */
+            }
+
+                .header .navbar-nav > li {
+                    display: flex;
+                    align-items: center; /* Center each nav item vertically */
+                }
+
+                    .header .navbar-nav > li > a {
+                        color: var(--text-color);
+                        font-size: 1.4rem;
+                        padding: 10px 20px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        transition: color 0.3s ease;
+                        line-height: 1;
+                        display: flex;
+                        align-items: center; /* Ensure link text is centered */
+                    }
+
+                        .header .navbar-nav > li > a:hover {
+                            color: var(--primary-color);
+                        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            height: 100%; /* Ensure actions take full height of container */
+        }
+
+        .cart-icon {
+            color: var(--secondary-color);
+            font-size: 2rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: var(--accent-color);
+            color: #fff;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-header {
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            line-height: 1;
+            display: flex;
+            align-items: center; /* Ensure button text is centered */
+        }
+
+            .btn-header:hover {
+                background-color: var(--primary-color);
+                color: #fff;
+            }
+
+        /* Mobile Toggle */
+        .navbar-toggle {
+            display: none;
+            border: none;
+            background: transparent;
+            font-size: 2rem;
+            color: var(--primary-color);
+            line-height: 1;
+            display: flex;
+            align-items: center; /* Center toggle icon */
+        }
+
+        @@media (max-width: 768px) {
+            .navbar-toggle {
+                display: block;
+            }
+
+            .header .container {
+                height: auto; /* Allow height to adjust on mobile */
+            }
+
+            .header .navbar-nav {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+                padding: 10px 0;
+                height: auto; /* Reset height for mobile */
+            }
+
+                .header .navbar-nav.active {
+                    display: flex;
+                }
+
+                .header .navbar-nav > li {
+                    display: block; /* Stack items vertically */
+                }
+
+                    .header .navbar-nav > li > a {
+                        font-size: 1.2rem;
+                        padding: 15px 0;
+                    }
+
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+                padding: 10px 0;
+                height: auto; /* Reset height for mobile */
+            }
+
+            .btn-header {
+                font-size: 1.1rem;
+                padding: 6px 15px;
+            }
+
+            .cart-icon {
+                font-size: 1.8rem;
+            }
+
+            .cart-count {
+                width: 20px;
+                height: 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Rest of the styles */
+        .container.body-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-top: 100px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: #fff;
+            padding: 60px 30px 30px;
+            margin-top: 40px;
+        }
+
+            footer h2 {
+                color: #fff;
+                font-size: 1.4rem;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            footer a {
+                color: rgba(255,255,255,0.9);
+                text-decoration: none;
+                display: block;
+                margin-bottom: 10px;
+                transition: all 0.3s ease;
+            }
+
+                footer a:hover {
+                    color: #fff;
+                    transform: translateX(5px);
+                }
+
+            footer .text-center {
+                margin-top: 30px;
+                font-size: 0.9rem;
+                opacity: 0.9;
+            }
+    </style>
+</head>
+
+<body>
+    @{ var user = Session["use"] as Nguoidung; }
+
+    <header class="header">
+        <div class="container">
+            @Html.ActionLink("PXT Shoes Shop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Sản phẩm", "Index", "Sanpham")</li>
+                <li>@Html.ActionLink("Liên hệ", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Giới thiệu", "About", "Home")</li>
+            </ul>
+
+            <div class="header-actions">
+                <a href="@Url.Action("GioHang", "GioHang")" class="cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="cart-count">@Html.Action("TongSoLuong", "GioHang")</span>
+                </a>
+                @if (user != null)
+                {
+                    <span class="mr-2">Hi, @user.Email</span>
+                    <a href="@Url.Action("DangXuat", "User")" class="btn-header">Đăng xuất</a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Dangnhap", "User")" class="btn-header">Đăng nhập</a>
+                }
+            </div>
+        </div>
+    </header>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h2>Chính sách</h2>
+                    <a href="https://vinashoes.com/huong-dan-mua-hang/" target="_blank">Hướng Dẫn Mua Hàng</a>
+                    <a href="https://vinashoes.com/chinh-sach-bao-mat/" target="_blank">Bảo Mật</a>
+                    <a href="@Url.Action("Contact", "Home")" target="_blank">Hỗ Trợ Khách Hàng</a>
+                    <a href="https://vinashoes.com/chinh-sach-hoan-tien/" target="_blank">Hoàn Tiền</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Liên kết</h2>
+                    <a href="https://vnexpress.net" target="_blank">Tin Tức</a>
+                    <a href="https://www.topcv.vn/lap-trinh-web-la-gi" target="_blank">Lập Trình Web</a>
+                    <a href="https://genk.vn" target="_blank">GenkVn</a>
+                    <a href="https://dantri.com.vn/" target="_blank">Dân Trí</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Thông tin</h2>
+                    <a href="@Url.Action("About", "Home")" target="_blank">Về Chúng Tôi</a>
+                    <a href="@Url.Action("Contact", "Home")" target="_blank">Liên Hệ</a>
+                    <a href="@Url.Action("Contact", "Home")" target="_blank">Góp Ý</a>
+                    <a href="@Url.Action("Donhang", "User")" target="_blank">Tra Cứu Đơn</a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>Kết nối</h2>
+                    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+                    <a href="https://www.facebook.com/VinagiayExport/" target="_blank">Facebook</a>
+                    <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <p class="text-center">© @DateTime.Now.Year - PXT Shoes Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script>
+        // Toggle mobile menu
+        document.querySelector('.navbar-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar-nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

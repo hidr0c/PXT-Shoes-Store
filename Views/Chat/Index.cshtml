@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Chat";
+}
+
+<h2>Chatbox</h2>
+
+<!-- User Name Input -->
+<div>
+    <label>Enter your name:</label>
+    <input type="text" id="userName" placeholder="Your Name" />
+</div>
+
+<div id="chatContainer">
+    <div id="chatbox">
+        <!-- Messages will appear here -->
+    </div>
+    <input type="text" id="messageInput" placeholder="Type a message..." />
+    <button id="sendButton">Send</button>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.3.min.js"></script>
+    <script src="/signalr/hubs"></script>
+
+    <script>
+        $(document).ready(function () {
+            if (!$.connection) {
+                console.error("❌ SignalR not loaded properly!");
+                return;
+            }
+
+            var chatHub = $.connection.chatHub;
+            if (!chatHub) {
+                console.error("❌ chatHub is undefined!");
+                return;
+            }
+
+            // Receive messages with sender name
+            chatHub.client.receiveMessage = function (userName, message, timeStamp) {
+                $("#chatbox").append(`<p><strong>[${timeStamp}] ${userName}:</strong> ${message}</p>`);
+            };
+
+            // Start connection
+            $.connection.hub.start().done(function () {
+                console.log("✅ SignalR connected!");
+
+                $("#sendButton").on("click", function () {
+                    var userName = $("#userName").val().trim();
+                    var message = $("#messageInput").val().trim();
+
+                    if (userName === "") {
+                        alert("Please enter your name before sending messages.");
+                        return;
+                    }
+
+                    if (message !== "") {
+                        chatHub.server.sendMessage(userName, message);
+                        $("#messageInput").val(""); // Clear input
+                    }
+                });
+            }).fail(function (error) {
+                console.error("❌ SignalR connection failed: " + error);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,83 @@
+﻿@model PagedList.IPagedList<VinaShoseShop.Models.Phanquyen>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@{
+    var pageNumber = Model.PageNumber;
+    var pageSize = Model.PageSize;
+    var startIndex = (pageNumber - 1) * pageSize + 1;
+}
+
+<h2>Quyền truy cập</h2>
+
+<h2>
+    <input id="searchInput" class="form-control" type="text" placeholder="Tìm kiếm..."
+           aria-label="Tìm kiếm" aria-describedby="basic-addon2" style="width: 200px; height: 30px;" />
+</h2>
+<a style="margin-left:1200px;position:absolute" href="/Admin/PhanQuyens/Create" class="btn btn-primary">Add</a>
+<br />
+<br />
+<table class="table table-hover table-bordered">
+    <tr>
+        <th>STT</th>
+        <th>
+            ID
+        </th>
+        <th>
+            Tên Quyền
+        </th>
+        <th>Hành động</th>
+    </tr>
+    @{
+        var i = startIndex;
+    }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td> @i  </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IDQuyen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenQuyen)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", new { id = item.IDQuyen })" class="btn btn-sm btn-outline-warning">Sửa</a>
+                <a href="@Url.Action("Delete", new { id = item.IDQuyen })" class="btn btn-sm btn-outline-danger">Xoá</a>
+                <a href="@Url.Action("Details", new { id = item.IDQuyen })" class="btn  btn-sm btn-outline-success">Chi tiết</a>
+            </td>
+        </tr>
+        i++;
+    }
+
+</table>
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+
+    <script>
+        document.getElementById("searchInput").addEventListener("input", function () {
+            var searchValue = this.value.toLowerCase();
+            var itemsToFilter = document.querySelectorAll("table.table-bordered tr:not(:first-child)");
+
+            itemsToFilter.forEach(function (row) {
+                var cells = row.querySelectorAll("td");
+                var matchFound = false;
+
+                cells.forEach(function (cell) {
+                    var textContent = cell.textContent.toLowerCase();
+                    if (textContent.includes(searchValue)) {
+                        matchFound = true;
+                    }
+                });
+                if (matchFound) {
+                    row.style.display = "";
+                } else {
+                    row.style.display = "none";
+                }
+            });
+        });
+    </script>

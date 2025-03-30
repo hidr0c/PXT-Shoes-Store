@@ -1,0 +1,169 @@
+﻿@using VinaShoseShop.Models
+@model List<Sanpham>
+
+@section Styles {
+    <link href="@Url.Content("~/Scripts/CSS/ProductStyles.css")" rel="stylesheet" type="text/css" />
+}
+
+<div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <form class="search-form">
+            <input id="searchInput1" type="text" placeholder="Tìm kiếm..." aria-label="Tìm kiếm" />
+            <input id="minPrice1" type="number" placeholder="Giá thấp nhất" aria-label="Giá thấp nhất" />
+            <input id="maxPrice1" type="number" placeholder="Giá cao nhất" aria-label="Giá cao nhất" />
+            <button id="searchButton1" type="button">Tìm kiếm</button>
+            <button id="resetButton" type="button">Reset</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <h3 class="brand-title">Tất Cả Sản Phẩm</h3>
+</div>
+
+<div class="products-container">
+    @foreach (var item in Model)
+    {
+        <div class="product-card">
+            <div class="product-image">
+                @if (item.Sale == true)
+                {
+                    decimal gia = Convert.ToDecimal(item.Giatien);
+                    decimal giaSale = Convert.ToDecimal(item.GiaSale);
+                    decimal phanTramGiamGia = gia != 0 ? ((gia - giaSale) / gia) * 100 : 0;
+                    int giamgia = Convert.ToInt32(phanTramGiamGia);
+                    <div class="sale-badge">
+                        -@giamgia%
+                    </div>
+                }
+                <a href="@Url.Action("xemchitiet", new { @Masp = item.Masp })">
+                    <img src="@Url.Content("~/HinhanhSP/" + item.Anhbia)" class="img-responsive" alt="@item.Tensp" />
+                </a>
+            </div>
+            <h3>@item.Tensp</h3>
+            @if (item.Sale == true)
+            {
+                <div class="price">
+                    <span class="sale-price">@Convert.ToDecimal(item.GiaSale).ToString("n0") đ</span>
+                    <del class="original-price">@Convert.ToDecimal(item.Giatien).ToString("n0") đ</del>
+                </div>
+            }
+            else
+            {
+                <div class="price">
+                    <span class="regular-price">@Convert.ToDecimal(item.Giatien).ToString("n0") đ</span>
+                </div>
+            }
+
+            @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = item.Masp, @strURL = Request.Url.ToString() }, FormMethod.Post, new { @id = "form-" + item.Masp, @class = "add-to-cart-form" }))
+            {
+                <label for="size-@item.Masp">Chọn size:</label>
+                <select name="size" id="size-@item.Masp" required>
+                    <option value="">Chọn size</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                </select>
+                <input type="number" name="quantity" value="1" min="1" required>
+                <input type="submit" value="Thêm vào giỏ hàng" class="btn btn-primary" data-product-name="@item.Tensp" />
+            }
+        </div>
+    }
+</div>
+
+<div class="cart-notification" id="cart-notification">
+    Sản phẩm đã được thêm vào giỏ hàng!
+</div>
+
+<div class="row">
+    <h2></h2>
+    <div class="col-md-8">
+        <!-- Placeholder for video content or other dynamic content -->
+    </div>
+    <div class="col-md-4">
+        <!-- Placeholder for news content -->
+        <p></p>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Lấy tất cả các sản phẩm hiện có trong danh sách
+        const allProducts = document.querySelectorAll('.product-card');
+
+        // Hàm xử lý tìm kiếm
+        function searchProducts() {
+            const searchQuery = document.getElementById("searchInput1").value.toLowerCase();
+            const minPrice = parseFloat(document.getElementById("minPrice1").value) || 0;
+            const maxPrice = parseFloat(document.getElementById("maxPrice1").value) || Infinity;
+
+            allProducts.forEach(product => {
+                const productName = product.querySelector('h3').innerText.toLowerCase();
+                const priceElement = product.querySelector('.price');
+                const productPrice = parseFloat(
+                    priceElement.querySelector('.sale-price')?.innerText.replace(' đ', '') ||
+                    priceElement.querySelector('.regular-price')?.innerText.replace(' đ', '')
+                );
+
+                if (
+                    productName.includes(searchQuery) &&
+                    productPrice >= minPrice &&
+                    productPrice <= maxPrice
+                ) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        }
+
+        // Hàm reset các trường tìm kiếm
+        function resetSearchFields() {
+            document.getElementById("searchInput1").value = '';
+            document.getElementById("minPrice1").value = '';
+            document.getElementById("maxPrice1").value = '';
+            allProducts.forEach(product => {
+                product.style.display = 'block';
+            });
+        }
+
+        // Hàm thêm sản phẩm vào giỏ hàng
+        function addToCart(productName) {
+            const cartNotification = document.getElementById('cart-notification');
+            cartNotification.style.display = 'block';
+            setTimeout(() => {
+                cartNotification.style.display = 'none';
+            }, 3000);
+        }
+
+        // Gắn sự kiện
+        document.getElementById('searchButton1').addEventListener('click', searchProducts);
+        document.getElementById('resetButton').addEventListener('click', resetSearchFields);
+        document.addEventListener('keypress', e => {
+            if (e.key === 'Enter') {
+                searchProducts();
+            }
+        });
+
+        // Gắn sự kiện cho các form "Thêm vào giỏ hàng"
+        document.querySelectorAll('.add-to-cart-form').forEach(form => {
+            form.addEventListener('submit', function (e) {
+                const productName = this.querySelector('input[type="submit"]').getAttribute('data-product-name');
+                addToCart(productName);
+            });
+        });
+    </script>
+}
