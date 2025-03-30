@@ -1,0 +1,67 @@
+﻿@model VinaShoseShop.Models.Nguoidung
+
+@{
+    ViewBag.Title = "Đăng Ký";
+}
+
+@section Styles {
+    <link href="@Url.Content("~/Scripts/CSS/RegisterStyles.css")" rel="stylesheet" type="text/css" />
+}
+
+<section class="register-section">
+    <div class="register-container">
+        <h2 class="register-title">Đăng Ký Tài Khoản PXT Shoes Shop</h2>
+
+        @using (Html.BeginForm("dangky", "User", FormMethod.Post, new { @class = "register-form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <label for="Hoten">Họ và Tên</label>
+                    @Html.EditorFor(model => model.Hoten, new { htmlAttributes = new { @class = "" } })
+                    @Html.ValidationMessageFor(model => model.Hoten, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Địa Chỉ Email</label>
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Dienthoai">Số Điện Thoại</label>
+                    @Html.EditorFor(model => model.Dienthoai, new { htmlAttributes = new { @class = "" } })
+                    @Html.ValidationMessageFor(model => model.Dienthoai, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Matkhau">Mật Khẩu</label>
+                    @Html.EditorFor(model => model.Matkhau, new { htmlAttributes = new { type = "password", @class = "" } })
+                    @Html.ValidationMessageFor(model => model.Matkhau, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Diachi">Địa Chỉ Giao Hàng</label>
+                    @Html.EditorFor(model => model.Diachi, new { htmlAttributes = new { @class = "" } })
+                    @Html.ValidationMessageFor(model => model.Diachi, "", new { @class = "text-danger" })
+                </div>
+
+                <button type="submit" class="submit-button">Đăng Ký</button>
+            </div>
+        }
+
+        @if (ViewBag.Fail != null)
+        {
+            <div class="text-danger" style="text-align: center; margin-top: 15px;">
+                @ViewBag.Fail
+            </div>
+        }
+
+        <div class="login-link">
+            @Html.ActionLink("Đã có tài khoản? Quay lại đăng nhập", "Dangnhap", "User")
+        </div>
+    </div>
+</section>

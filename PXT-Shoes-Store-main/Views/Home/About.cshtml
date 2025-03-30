@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Giới Thiệu";
+    ViewBag.Message = "Chào mừng đến với PXT Shoes Shop – Điểm đến hàng đầu cho những đôi giày thời trang chất lượng và đa dạng!";
+}
+
+@section Styles {
+    <link href="@Url.Content("~/Scripts/CSS/AboutStyles.css")" rel="stylesheet" type="text/css" />
+}
+
+<section class="about-section">
+    <div class="container">
+        <h2 class="shop-title">@ViewBag.Title</h2>
+        <p class="shop-message">@Html.Raw(ViewBag.Message)</p>
+
+        <div class="about-content">
+            <p>Tại <span class="shop-highlight">PXT Shoes Shop</span>, chúng tôi tự hào là địa chỉ đáng tin cậy dành cho những tín đồ thời trang muốn thể hiện phong cách riêng biệt. Với bộ sưu tập đa dạng từ các thương hiệu hàng đầu, <span class="shop-highlight">chúng tôi cam kết</span> mang đến những sản phẩm chất lượng cao với mức giá hợp lý nhất.</p>
+
+            <p>Chúng tôi hiểu rằng giày dép không chỉ là một phụ kiện, mà còn là biểu tượng của cá tính và phong cách. Vì vậy, tại PXT Shoes Shop, <span class="shop-highlight">chúng tôi không ngừng cập nhật</span> những xu hướng mới nhất, mang đến các mẫu mã thời thượng để bạn tự tin sải bước mỗi ngày.</p>
+
+            <p>PXT Shoes Shop không chỉ là nơi mua sắm, mà còn là không gian để bạn khám phá thế giới giày dép phong phú. Với dịch vụ chăm sóc khách hàng tận tâm và đội ngũ nhân viên chuyên nghiệp, <span class="shop-highlight">chúng tôi luôn sẵn sàng đồng hành</span> cùng bạn trên hành trình thời trang.</p>
+
+            <p>Hãy ghé thăm <span class="shop-highlight">PXT Shoes Shop</span> ngay hôm nay để khám phá bộ sưu tập đa dạng của chúng tôi. <span class="shop-highlight">Chúng tôi tin rằng</span> bạn sẽ tìm thấy đôi giày hoàn hảo để tôn lên phong cách riêng của mình!</p>
+
+            <a href="@Url.Action("Index", "Sanpham")" class="cta-button">Khám Phá Ngay</a>
+        </div>
+    </div>
+</section>

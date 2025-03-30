@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "VnpayReturn";
+    string kq = ViewBag.InnerText;
+}
+<link rel="stylesheet" type="text/css" href="~/Content/ThuVienZ/styles/main_styles.css">
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css" rel="stylesheet">
+<div class="container product_section_container" style="margin-top:200px">
+    <div class="row">
+        <div class="col product_section clearfix">
+            <!-- Breadcrumbs -->
+ 
+            <!-- Sidebar -->
+            <!-- Main Content -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+    
+                            <p class="alert alert-info">Bạn đã thanh toán thành công với @ViewBag.ThanhToanThanhCong!</p>
+   
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+</div>
+@section scripts
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Đặt hàng thành công",
+                text: "Cảm ơn bạn đã đặt hàng 😘",
+                showConfirmButton: false,
+                timer: 3000
+            }).then(() => {
+            });
+        });
+    </script>
+}
+
+

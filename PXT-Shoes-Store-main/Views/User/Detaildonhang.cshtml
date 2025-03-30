@@ -1,0 +1,85 @@
+﻿@model List<VinaShoseShop.Models.Chitietdonhang>
+
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2 style="margin-top:100px">Chi tiết đơn hàng</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>STT</th>
+        <th>
+            Mã đơn
+        </th>
+        <th>
+            Mã sản phẩm
+        </th>
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Hình ảnh
+        </th>
+        <th>
+            Màu sắc
+        </th>
+        <th>
+            Kích cỡ
+        </th>
+        <th>
+            Số lượng
+        </th>
+        <th>
+            Đơn giá
+        </th>
+    </tr>
+    @{
+        var i = 0;
+    }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@i</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Madon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Masp)
+            </td>
+            @{
+                var products = ViewBag.SanPham as List<VinaShoseShop.Models.Sanpham>;
+                var product = products.FirstOrDefault(
+                    p => p.Masp == item.Masp);
+            }
+            <td>
+                @product.Tensp
+            </td>
+            <td>
+                <img style="width:35px;height:35px" src="~/HinhanhSP/@product.Anhbia" />
+            </td>
+            <td>
+                @product.Mausac
+            </td>
+            <td>
+                @item.size
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dongia)
+            </td>
+        </tr>
+        i++;
+    }
+
+</table>
+
+<a href="@Url.Action("DonHang", "User")" class="btn btn-sm btn-primary btn-lg">Back</a>
+
+
+
