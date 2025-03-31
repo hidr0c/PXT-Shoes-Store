@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <style>
+
         .contact-section {
             padding: 80px 0;
             background: linear-gradient(135deg, #f8f9fa, #e3e7eb);
@@ -27,7 +28,6 @@
         }
 
         .info-box {
-            flex: 1;
             background: #fff;
             padding: 30px;
             border-radius: 10px;
@@ -36,50 +36,59 @@
             text-align: center;
         }
 
-            .info-box p {
-                font-size: 1.2rem;
-                margin-bottom: 15px;
+        /* Căn chỉnh contact form */
+        .contact-form {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            /* Căn trái tiêu đề để thẳng hàng với info-box */
+            .contact-form h3 {
+                text-align: left;
+                width: 100%;
+                font-size: 2rem;
+                margin-bottom: 20px;
             }
 
-        .contact-form {
-            flex: 1;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
+        /* Căn giữa form-group với kích thước hợp lý */
         .form-group {
-            margin-bottom: 20px;
-            text-align: center;
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
+        /* Làm cho input và textarea to hơn và đều nhau */
         .form-control {
             border-radius: 8px;
-            padding: 12px;
+            padding: 14px;
             border: 1px solid #ccc;
-            text-align: center;
-            width: 80%;
-            margin: 0 auto;
+            width: 150%; /* Rộng hơn */
+            font-size: 1.5rem;
         }
 
+        /* Điều chỉnh nút gửi */
         .submit-button {
-            width: 80%;
+            width: 90%; /* To hơn */
             padding: 14px;
             background: #007bff;
             color: #fff;
             border: none;
             border-radius: 10px;
-            font-size: 1.2rem;
+            font-size: 1.2rem; /* To hơn */
             transition: 0.3s;
-            display: block;
-            margin: 0 auto;
         }
 
             .submit-button:hover {
                 background: #0056b3;
             }
+
+
     </style>
 }
 
@@ -105,16 +114,13 @@
                 <h3 class="text-center">Liên Hệ Với Chúng Tôi</h3>
                 <form action="@Url.Action("SubmitContact", "Home")" method="post">
                     <div class="form-group">
-                        <label for="name">Tên Của Bạn</label>
-                        <input type="text" id="name" name="name" class="form-control" required />
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Tên Của Bạn" required />
                     </div>
                     <div class="form-group">
-                        <label for="email">Địa Chỉ Email Của Bạn</label>
-                        <input type="email" id="email" name="email" class="form-control" required />
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Địa Chỉ Email Của Bạn" required />
                     </div>
                     <div class="form-group">
-                        <label for="message">Lời Nhắn Của Bạn</label>
-                        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                        <textarea id="message" name="message" class="form-control" rows="4" placeholder="Lời Nhắn Của Bạn" required></textarea>
                     </div>
                     <button type="submit" class="submit-button">Gửi Lời Nhắn</button>
                 </form>
